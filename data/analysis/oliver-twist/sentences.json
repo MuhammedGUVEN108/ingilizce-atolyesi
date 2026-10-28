@@ -1,0 +1,234 @@
+[
+  {
+    "id": "ot-sentence-1",
+    "original": "The three boys went out. Oliver was wondering if they were going to work.",
+    "studyVersion": "The three boys went out. Oliver was wondering if they were going to work.",
+    "tr": "Üç çocuk dışarı çıktı. Oliver onların işe gidip gitmediklerini merak ediyordu.",
+    "note": "if burada eğer değil, olup olmadığını anlatır; was wondering geçmişte süren meraktır.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      38
+    ]
+  },
+  {
+    "id": "ot-sentence-2",
+    "original": "The policeman involved Oliver along the street.",
+    "studyVersion": "The policeman dragged Oliver along the street.",
+    "tr": "Polis Oliver'ı sokak boyunca sürükledi.",
+    "note": "Dragged kullanımı yalnız açıklayıcı alternatiftir; involve yerine kitapta hangi kelimenin geçtiği doğrulanmadı.",
+    "status": "illustrative-alternative",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      42
+    ]
+  },
+  {
+    "id": "ot-sentence-3",
+    "original": "If so, can you take it as the others did without making me feel it?",
+    "studyVersion": "If so, can you take it as the others did without making me feel it?",
+    "tr": "Eğer öyleyse, diğerlerinin yaptığı gibi, bana hissettirmeden onu alabilir misin?",
+    "note": "If so; as ... did; without + V-ing; make + kişi + yalın fiil. It zamirinin hangi nesneye karşılık geldiği bilinmiyor.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      46
+    ]
+  },
+  {
+    "id": "ot-sentence-4",
+    "original": "House they finished what they had to do.",
+    "studyVersion": null,
+    "tr": null,
+    "note": "Başlangıç belirsiz; how olduğu varsayılmadı. What they had to do = yapmaları gereken şey.",
+    "status": "unresolved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      50
+    ]
+  },
+  {
+    "id": "ot-sentence-5",
+    "original": "We must have another enterprise to take Oliver back.",
+    "studyVersion": "We must make another attempt to bring Oliver back.",
+    "tr": "Oliver'ı geri getirmek için bir kez daha girişimde bulunmalıyız.",
+    "note": "Kaynak cümlede enterprise girişim anlamında yorumlanabilir. Bu cümle modern, öğretici bir yeniden yazımdır; kitabın aslı değildir.",
+    "status": "editorial-rewrite",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      88,
+      108
+    ]
+  },
+  {
+    "id": "ot-sentence-6",
+    "original": "I don't need to tell you that he was kidnapped.",
+    "studyVersion": "I don't need to tell you that he was kidnapped.",
+    "tr": "Onun kaçırıldığını sana söylememe gerek yok.",
+    "note": "Don't need to = gerek olmamak; that + cümle; was kidnapped = geçmiş zamanda edilgen.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      95
+    ]
+  },
+  {
+    "id": "ot-sentence-7",
+    "original": "Rose had been sleeping deeply for a long time that she woke up from this longig lasting step",
+    "studyVersion": null,
+    "tr": null,
+    "note": "Metin bozuk; before she finally woke up önceki AI'ın olası yeniden yazımıdır. Orijinal kitap sayfası olmadan kesin düzeltme yapılmadı.",
+    "status": "unresolved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      145
+    ]
+  },
+  {
+    "id": "ot-sentence-8",
+    "original": "Bad things can often appear in a kind home, the things like badness or death can be found among he young as much as the olds.",
+    "studyVersion": "Bad things can appear even in a kind home. Things like evil or death can affect the young as much as the old.",
+    "tr": "Kötü şeyler şefkatli bir evde bile ortaya çıkabilir. Kötülük veya ölüm gibi şeyler gençleri de yaşlılar kadar etkileyebilir.",
+    "note": "He young → the young; topluluk anlamındaki the old için olds kullanılmaz. Noktalama ve doğal ifade düzenlendi; bu bir öğretici yeniden yazımdır.",
+    "status": "editorial-rewrite",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      203
+    ]
+  },
+  {
+    "id": "ot-sentence-9",
+    "original": "He was shut.",
+    "studyVersion": "He was shut in a room.",
+    "tr": "Bir odaya kapatıldı.",
+    "note": "In a room kaynakta yoktur; eksik bağlamı açıklamak için eklenen örnektir.",
+    "status": "illustrative-alternative",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      254,
+      275
+    ]
+  },
+  {
+    "id": "ot-sentence-10",
+    "original": "She didn't like his desire to eat.",
+    "studyVersion": "She didn't like his desire to eat.",
+    "tr": "Onun yemek yeme arzusundan hoşlanmıyordu.",
+    "note": "His desire to eat bir isim grubudur; to eat, ne yapma arzusunu belirtir.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      335,
+      349
+    ]
+  },
+  {
+    "id": "ot-sentence-11",
+    "original": "I hope you don't mind sleeping among the coffins.",
+    "studyVersion": "I hope you don't mind sleeping among the coffins.",
+    "tr": "Umarım tabutların arasında uyumaktan rahatsız olmazsın.",
+    "note": "Mind ardından sleeping gelir; among bir grubun içinde/arasında anlamındadır.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      350
+    ]
+  },
+  {
+    "id": "ot-sentence-12",
+    "original": "In any case, it doesn't matter if you want to or not.",
+    "studyVersion": "In any case, it doesn't matter if you want to or not.",
+    "tr": "Her hâlükârda, isteyip istememenin önemi yok.",
+    "note": "Want to ardından bağlamdan bilinen eylem söylenmeden bırakılmıştır.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      351
+    ]
+  },
+  {
+    "id": "ot-sentence-13",
+    "original": "That's why everybody takes pity on you.",
+    "studyVersion": "That's why everybody takes pity on you.",
+    "tr": "İşte bu yüzden herkes sana acıyor.",
+    "note": "That's why sonuç açıklaması; take pity on someone birine acımak.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      352
+    ]
+  },
+  {
+    "id": "ot-sentence-14",
+    "original": "Your mum was a prostitute.",
+    "studyVersion": "Your mum was a prostitute.",
+    "tr": "Annen bir seks işçisiydi.",
+    "note": "Karaktere yönelik sözdür; kullanıcının yaşamına ilişkin bilgi değildir. Mum Britanya İngilizcesindeki samimi anne ifadesidir.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      353
+    ]
+  },
+  {
+    "id": "ot-sentence-15",
+    "original": "He would die.",
+    "studyVersion": "He would die.",
+    "tr": "Ölecekti / ölürdü.",
+    "note": "Geçmişte gelecek veya varsayımsal sonuç; kesin yorum için bağlam gerekir.",
+    "status": "context-dependent",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      388,
+      399
+    ]
+  },
+  {
+    "id": "ot-sentence-16",
+    "original": "There were a lot of silk handkerchiefs hanged on a string.",
+    "studyVersion": "There were a lot of silk handkerchiefs hanging on a string.",
+    "tr": "Bir ipte asılı duran çok sayıda ipek mendil vardı.",
+    "note": "Eşya asma anlamında hung kullanılır; burada hanging on a string durum anlatan doğal bir seçenektir.",
+    "status": "editorial-rewrite",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      406
+    ]
+  },
+  {
+    "id": "ot-sentence-17",
+    "original": "Mr sowerberry admitted olivers working in his shop",
+    "studyVersion": "Mr. Sowerberry agreed to let Oliver work in his shop.",
+    "tr": "Bay Sowerberry, Oliver'ın dükkânında çalışmasına izin vermeyi kabul etti.",
+    "note": "Admitted Oliver's working başka bir kabul anlamı verebilir; izin verme yorumu için agreed to let seçildi. Kitap aslı teyit edilmedi.",
+    "status": "editorial-rewrite",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      464
+    ]
+  },
+  {
+    "id": "ot-sentence-18",
+    "original": "The bowls didn't need to be cleaned because children didn't leave even a drop in them.",
+    "studyVersion": "The bowls didn't need to be cleaned because the children didn't leave even a drop in them.",
+    "tr": "Çocuklar içlerinde bir damla bile bırakmadığı için kâselerin temizlenmesine gerek yoktu.",
+    "note": "The children belirli çocuk grubunu gösterir. Need to be + V3; leave = bırakmak; even a drop = bir damla bile.",
+    "status": "editorial-rewrite",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      510
+    ]
+  },
+  {
+    "id": "ot-sentence-19",
+    "original": "He lifted his cane and panted the announcement.",
+    "studyVersion": "He lifted his cane and panted the announcement.",
+    "tr": "Bastonunu kaldırdı ve duyuruyu nefes nefese söyledi.",
+    "note": "Lifted = kaldırdı (lift); announcement = duyuru; pant burada nefes nefese söylemek. Kitap cümlesi olduğu doğrulanmadı.",
+    "status": "preserved",
+    "origin": "AI-conversation-summary-not-verified-book-quotation",
+    "sourceLines": [
+      516
+    ]
+  }
+]

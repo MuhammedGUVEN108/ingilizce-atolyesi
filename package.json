@@ -1,0 +1,8 @@
+{
+  "name": "kelime-atolyesi",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tools/core.test.mjs tools/direct-open.test.mjs tools/oliver-data.test.mjs"
+  }
+}

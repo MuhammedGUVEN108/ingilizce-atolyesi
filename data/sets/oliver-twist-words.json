@@ -1,0 +1,3194 @@
+{
+  "id": "oliver-twist-words",
+  "title": "Oliver Twist · Kelimeler",
+  "folder": "Kitaplar · Oliver Twist",
+  "description": "Kitap okurken oluşan sohbet özetlerinden temizlendi. Örnek cümleler çalışma için oluşturuldu; kitaptan kesin alıntı değildir. İnceleme notları aşağıda.",
+  "words": [
+    {
+      "term": "conversely",
+      "meaning": "tersine; bunun aksine",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "en": "Some prefer cities; conversely, others prefer villages.",
+          "tr": "Bazıları şehirleri tercih eder; bunun aksine diğerleri köyleri tercih eder.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-conversely",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "conversely"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Conversely"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          7,
+          301
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "bleed",
+      "meaning": "kanamak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "His hand was bleeding.",
+          "tr": "Eli kanıyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-bleed",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "bleed"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Bleeding"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          8
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim bleeding. Bleed → bled → bled; was bleeding = kanıyordu.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "involve",
+      "meaning": "içermek; birini bir işe dahil etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The plan involves several people.",
+          "tr": "Plan birkaç kişiyi içeriyor.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-involve",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "involve"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Involve"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          9
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "mug",
+      "meaning": "gasp etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Two men tried to mug him.",
+          "tr": "İki adam onu gasp etmeye çalıştı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-mug",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "mug"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Mug"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          10
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynakta kupa anlamı da verilmiş; fiil kartı gasp etmek anlamına odaklanır. Kupa anlamı ayrı isim kullanımıdır.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "moan",
+      "meaning": "inlemek; sızlanmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The boy moaned in pain.",
+          "tr": "Çocuk acı içinde inledi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-moan",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "moan"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Moan"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          12
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "purse",
+      "meaning": "küçük para çantası; para kesesi",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "She put the coins in her purse.",
+          "tr": "Bozuk paraları para kesesine koydu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-purse",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "purse"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Purse"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          13
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Britanya bağlamında küçük para çantası/para kesesi. Bazı Amerikan kullanımlarında el çantası anlamına gelebilir; kitap bağlamı görülmeden tek karşılık dayatılmaz.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "teach",
+      "meaning": "öğretmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She taught him how to read.",
+          "tr": "Ona okumayı öğretti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-teach",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "teach"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Taught"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          14
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim taught. Teach → taught → taught; was taught = öğretildi. Kartta yalın teach biçimini yaz.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "along",
+      "meaning": "boyunca",
+      "partOfSpeech": "preposition",
+      "examples": [
+        {
+          "en": "They walked along the river.",
+          "tr": "Nehir boyunca yürüdüler.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-along",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "along"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Along"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          15
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "wonder",
+      "meaning": "merak etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "I wonder where he is.",
+          "tr": "Nerede olduğunu merak ediyorum.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-wonder",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "wonder"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Wonder"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          16
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "perceive",
+      "meaning": "algılamak; fark etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She perceived a change in his voice.",
+          "tr": "Sesindeki bir değişikliği fark etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-perceive",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "perceive"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Perceive"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          81,
+          107
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "enterprise",
+      "meaning": "girişim; teşebbüs; işletme",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "Their new enterprise required careful planning.",
+          "tr": "Yeni girişimleri dikkatli planlama gerektiriyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-enterprise",
+      "ipa": "/ˈen.tə.praɪz/",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "enterprise"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Enterprise"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          82,
+          108
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Bu bağlamda girişim/teşebbüs anlamı olasıdır. Kaynak cümledeki have another enterprise doğal bir modern eşdizim değildir; özgün kitap metni doğrulanmadı.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/enterprise"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "irritate",
+      "meaning": "rahatsız etmek; sinirlendirmek; tahriş etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The noise irritated him.",
+          "tr": "Gürültü onu rahatsız etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-irritate",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "irritate"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Irritate"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          83,
+          109
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "kidnap",
+      "meaning": "birini kaçırmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The criminals kidnapped the boy.",
+          "tr": "Suçlular çocuğu kaçırdı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-kidnap",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "kidnap"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Kidnapped"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          84,
+          110
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim kidnapped. Kidnap → kidnapped → kidnapped; was kidnapped = kaçırıldı.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "shiver",
+      "meaning": "titremek; ürpermek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He shivered in the cold.",
+          "tr": "Soğukta titredi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-shiver",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "shiver"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Shiver"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          133
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "suffer",
+      "meaning": "acı çekmek; bir sıkıntıya maruz kalmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The children suffered from hunger.",
+          "tr": "Çocuklar açlık çekti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-suffer",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "suffer"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Suffer"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          134
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "convey",
+      "meaning": "iletmek; aktarmak; ifade etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Her face conveyed sadness.",
+          "tr": "Yüzü üzüntü ifade ediyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-convey",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "convey"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Convey"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          136
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "deeply",
+      "meaning": "derinden; derin bir şekilde",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "en": "Rose was sleeping deeply.",
+          "tr": "Rose derin bir şekilde uyuyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-deeply",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "deeply"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Deeply"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          137
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Özet tarafından cümleden türetilen ek kelime; doğrudan sorulduğu kesin değil.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "long-lasting",
+      "meaning": "uzun süre devam eden; kalıcı",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "en": "Their friendship had a long-lasting effect on him.",
+          "tr": "Arkadaşlıklarının onun üzerinde kalıcı bir etkisi oldu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-long-lasting",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "long-lasting"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Long-lasting"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          138
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak özetin açıklamasından türetilmiş; longig lasting step ifadesinin doğrulanmış düzeltmesi değildir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "clerk",
+      "meaning": "memur; kâtip",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The clerk handed him a document.",
+          "tr": "Kâtip ona bir belge verdi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-clerk",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "clerk"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Clerk"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          139
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "shot",
+      "meaning": "silah atışı; ateş etme",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "They heard a shot in the distance.",
+          "tr": "Uzakta bir silah sesi duydular.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-shot",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "shot"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Shot"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          192
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Bu kart silah atışı anlamında isimdir. Shot aynı zamanda shoot fiilinin V2/V3 biçimidir. İğne, fotoğraf ve şut anlamları bağlama bağlı diğer kullanımlardır.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "permit",
+      "meaning": "izin vermek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "They permitted him to leave.",
+          "tr": "Gitmesine izin verdiler.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-permit",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "permit"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Permit"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          193
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Fiil olarak izin vermek. İsim olarak izin belgesi de demektir. Permit someone to do something kalıbına dikkat et; isim/fiil vurgu yeri farklıdır.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "curtain",
+      "meaning": "perde",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "She closed the curtains.",
+          "tr": "Perdeleri kapattı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-curtain",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "curtain"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Curtain"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          194
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "creature",
+      "meaning": "canlı; yaratık; bazen acınan kişi",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The little creature was shaking.",
+          "tr": "Küçük canlı titriyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-creature",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "creature"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Creature"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          195
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Canlı/yaratık; poor little creature gibi ifadelerde acınan bir insanı da anlatabilir, her zaman canavar değildir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "accompany",
+      "meaning": "eşlik etmek; refakat etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She accompanied him to London.",
+          "tr": "Ona Londra yolculuğunda eşlik etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-accompany",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "accompany"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Accompany"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          196
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "geese",
+      "meaning": "kazlar",
+      "partOfSpeech": "plural noun",
+      "examples": [
+        {
+          "en": "The geese crossed the road.",
+          "tr": "Kazlar yolu geçti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-geese",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "geese"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Geese"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          197
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Goose kelimesinin düzensiz çoğulu. Kart çoğul geese biçimini sorar; goose aynı cevap değildir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "appear",
+      "meaning": "görünmek; ortaya çıkmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "A man appeared at the door.",
+          "tr": "Kapıda bir adam belirdi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-appear",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "appear"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Appear"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          209
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "kind",
+      "meaning": "iyi kalpli; şefkatli",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "en": "She was kind to the boy.",
+          "tr": "Çocuğa karşı şefkatliydi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-kind",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "kind"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Kind"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          210
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "badness",
+      "meaning": "kötülük; kötü olma niteliği",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "He saw badness in their actions.",
+          "tr": "Davranışlarında kötülük gördü.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-badness",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "badness"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Badness"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          211
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Dilbilgisel olarak geçerli bir isimdir; bağlama göre evil veya wickedness daha doğal olabilir, sessizce başka kelimeye dönüştürülmedi.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "death",
+      "meaning": "ölüm",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "They were saddened by his death.",
+          "tr": "Ölümüne üzüldüler.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-death",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "death"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Death"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          212
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "collapse",
+      "meaning": "çökmek; yere yığılmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He collapsed on the floor.",
+          "tr": "Yere yığıldı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-collapse",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "collapse"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Collapsed"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          246,
+          302
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçimler collapsed; yinelenen kayıtlar tek başlıkta birleştirildi.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "bend",
+      "meaning": "eğmek; bükmek; eğilmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He bent down to pick up the coin.",
+          "tr": "Parayı almak için eğildi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-bend",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "bend"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Bent"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          247
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim bent. Bend → bent → bent.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "shut",
+      "meaning": "kapatmak; kapanmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He shut the door quietly.",
+          "tr": "Kapıyı sessizce kapattı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-shut",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "shut"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Shut"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          248
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Shut → shut → shut. He was shut tek başına yeterli bir hapsedilme örneği değildir; bağlam gerekir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "cardigan",
+      "meaning": "hırka",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "She was wearing a red cardigan.",
+          "tr": "Kırmızı bir hırka giyiyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-cardigan",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "cardigan"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Cardigan"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          249
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "pale",
+      "meaning": "solgun; soluk renkli",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "en": "He looked pale and tired.",
+          "tr": "Solgun ve yorgun görünüyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-pale",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "pale"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Pale"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          250
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "aide",
+      "meaning": "yardımcı; asistan",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The official sent an aide to the house.",
+          "tr": "Görevli, eve bir yardımcı gönderdi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-aide",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "aide"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Aide"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          290
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "whom",
+      "meaning": "kimi; kime; kişi için nesne görevindeki ilgi zamiri",
+      "partOfSpeech": "pronoun",
+      "examples": [
+        {
+          "en": "The boy whom she helped was hungry.",
+          "tr": "Yardım ettiği çocuk açtı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-whom",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "whom"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Whom"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          291
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Who'nun nesne biçimi; resmî/yazılı dilde yaygındır. Türkçe karşılığı cümlenin bütününe bağlıdır.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/grammar/british-grammar/who-whom"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "accept",
+      "meaning": "kabul etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He accepted the offer.",
+          "tr": "Teklifi kabul etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-accept",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "accept"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Accept"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          293
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Except (hariç) ile karıştırma. Accept bir fiildir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "except",
+      "meaning": "hariç; dışında",
+      "partOfSpeech": "preposition",
+      "examples": [
+        {
+          "en": "Everyone except Oliver was asleep.",
+          "tr": "Oliver hariç herkes uyuyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-except",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "except"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Except"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          294
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Accept (kabul etmek) ile karıştırma. Bu kartta except, hariç anlamında edattır.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "convince",
+      "meaning": "ikna etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She convinced him to stay.",
+          "tr": "Onu kalmaya ikna etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-convince",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "convince"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Convince"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          295
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "embrace",
+      "meaning": "sarılmak; kucaklamak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She embraced the boy warmly.",
+          "tr": "Çocuğa içtenlikle sarıldı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-embrace",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "embrace"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Embraced"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          297
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim embraced. Etken: sarıldı/kucakladı. Edilgen anlam için be gibi yardımcı yapı gerekir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "drag",
+      "meaning": "sürüklemek; zorla çekmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The man dragged the box across the floor.",
+          "tr": "Adam kutuyu yerde sürükledi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-drag",
+      "ipa": "/dræɡ/",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "drag"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Dragged"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          298
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim dragged. Drag → dragged → dragged. Dragged = sürükledi; was dragged = sürüklendi.",
+      "sources": [
+        "https://dictionary.cambridge.org/dictionary/english/drag"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "narrow",
+      "meaning": "dar",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "en": "They entered a narrow street.",
+          "tr": "Dar bir sokağa girdiler.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-narrow",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "narrow"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Narrow"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          299,
+          390
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "ring",
+      "meaning": "zil veya çan çalmak; çınlamak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He rang the doorbell.",
+          "tr": "Kapı zilini çaldı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-ring",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "ring"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Rang"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          300
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim rang. Ring → rang → rung. Bu kart zil/çan çalma fiilidir; yüzük ismi ayrı anlamdır.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "deserve",
+      "meaning": "hak etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Every child deserves a safe home.",
+          "tr": "Her çocuk güvenli bir evi hak eder.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-deserve",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "deserve"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Deserve"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          303
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "desire",
+      "meaning": "arzu; güçlü istek",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "His desire to learn was strong.",
+          "tr": "Öğrenme arzusu güçlüydü.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-desire",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "desire"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Desire"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          335
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "compel",
+      "meaning": "zorlamak; mecbur bırakmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Hunger compelled him to ask for food.",
+          "tr": "Açlık onu yiyecek istemeye mecbur bıraktı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-compel",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "compel"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Compelled"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          337
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim compelled. Be compelled to do something = bir şeyi yapmaya mecbur bırakılmak.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "unbearable",
+      "meaning": "dayanılmaz; katlanılmaz",
+      "partOfSpeech": "adjective",
+      "examples": [
+        {
+          "en": "The pain was unbearable.",
+          "tr": "Acı dayanılmazdı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-unbearable",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "unbearable"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Unbearable"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          338
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "envy",
+      "meaning": "kıskançlık; haset; imrenme",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "He looked at their food with envy.",
+          "tr": "Yiyeceklerine imrenerek baktı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-envy",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "envy"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Envy"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          339
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "pity",
+      "meaning": "acıma; merhamet",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "She felt pity for the child.",
+          "tr": "Çocuğa acıdı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-pity",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "pity"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Pity"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          340
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "squeeze",
+      "meaning": "sıkmak; sıkıştırmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He squeezed her hand gently.",
+          "tr": "Elini nazikçe sıktı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-squeeze",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "squeeze"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Squeezing"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          341
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim squeezing. Squeeze into/out ayrıca kalıp setinde bulunur.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "among",
+      "meaning": "arasında; bir grubun içinde",
+      "partOfSpeech": "preposition",
+      "examples": [
+        {
+          "en": "He found a letter among the books.",
+          "tr": "Kitapların arasında bir mektup buldu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-among",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "among"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Among"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          360
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "coffin",
+      "meaning": "tabut",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The carpenter made a coffin.",
+          "tr": "Marangoz bir tabut yaptı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-coffin",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "coffin"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Coffin",
+        "Coffins"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          361,
+          503
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Coffin ve coffins tek başlıkta birleştirildi. Coffins = tabutlar.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "prostitute",
+      "meaning": "seks işçisi; fahişe",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The character worked as a prostitute.",
+          "tr": "Karakter seks işçisi olarak çalışıyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-prostitute",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "prostitute"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Prostitute"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          366
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "mum",
+      "meaning": "anne (Britanya İngilizcesi; samimi kullanım)",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "He asked his mum for help.",
+          "tr": "Annesinden yardım istedi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-mum",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "mum"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Mum"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          367
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "die",
+      "meaning": "ölmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Without food, he would die.",
+          "tr": "Yiyecek olmadan ölecekti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-die",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "die"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Die"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          388
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "otherwise",
+      "meaning": "aksi takdirde; yoksa",
+      "partOfSpeech": "adverb",
+      "examples": [
+        {
+          "en": "Hurry up; otherwise, we will be late.",
+          "tr": "Acele et; yoksa geç kalacağız.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-otherwise",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "otherwise"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Otherwise"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          389,
+          421
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "silk",
+      "meaning": "ipek",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The scarf was made of silk.",
+          "tr": "Atkı ipekten yapılmıştı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-silk",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "silk"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Silk"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          391
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "handkerchief",
+      "meaning": "mendil",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "He took a handkerchief from his pocket.",
+          "tr": "Cebinden bir mendil çıkardı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-handkerchief",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "handkerchief"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Handkerchiefs"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          392
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim handkerchiefs; kart tekil handkerchief biçimini sorar.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "string",
+      "meaning": "ip; sicim",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The parcel was tied with string.",
+          "tr": "Paket iple bağlanmıştı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-string",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "string"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "String"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          393
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "hang",
+      "meaning": "asmak; asılı durmak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "Several handkerchiefs hung on a string.",
+          "tr": "Birkaç mendil bir ipte asılı duruyordu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-hang",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "hang"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Hang (hung)"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          394
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Hang → hung → hung eşya asma bağlamındaki güncel standarttır. Hanged çoğunlukla idamla ilgilidir. Hanging on a string = bir ipte asılı duran.",
+      "sources": [
+        "https://www.merriam-webster.com/grammar/hung-or-hanged"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "examine",
+      "meaning": "incelemek; muayene etmek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "She examined the letter carefully.",
+          "tr": "Mektubu dikkatlice inceledi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-examine",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "examine"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Examine"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          395
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "admit",
+      "meaning": "bir gerçeği kabul etmek; itiraf etmek; içeri almak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He admitted that he was wrong.",
+          "tr": "Yanıldığını kabul etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-admit",
+      "ipa": "/ədˈmɪt/",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "admit"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Admit"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          452
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Bir şeyi yaptığını/gerçeği kabul etmek veya birini içeri almak. Birinin çalışmasına izin vermek anlamına doğrudan eşitlenmez.",
+      "sources": [
+        "https://dictionary.cambridge.org/us/dictionary/english/admit"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "bowl",
+      "meaning": "kâse; çanak",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The bowl was empty.",
+          "tr": "Kâse boştu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-bowl",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "bowl"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Bowl"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          500
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "ladle",
+      "meaning": "kepçe",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "She served the soup with a ladle.",
+          "tr": "Çorbayı bir kepçeyle servis etti.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-ladle",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "ladle"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Ladle"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          501
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "grasp",
+      "meaning": "sıkıca tutmak; kavramak; anlamak",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He grasped the handle firmly.",
+          "tr": "Sapı sıkıca tuttu.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-grasp",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "grasp"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Grasped",
+        "Grasp"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          502,
+          529
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Grasp ve grasped birleştirildi. Fiziksel olarak kavramak veya bir düşünceyi anlamak olabilir.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "cane",
+      "meaning": "baston; ince değnek",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The old man leaned on his cane.",
+          "tr": "Yaşlı adam bastonuna yaslandı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-cane",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "cane"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Cane"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          504
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "pant",
+      "meaning": "soluk soluğa kalmak; nefes nefese söylemek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "He panted after running up the stairs.",
+          "tr": "Merdivenleri koşarak çıktıktan sonra soluk soluğa kaldı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-pant",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "pant"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Panted"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          505
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Kaynak biçim panted; bağlama göre nefes nefese kalmak veya nefes nefese söylemek.",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "chant",
+      "meaning": "ritmik veya ezgili söylemek",
+      "partOfSpeech": "verb",
+      "examples": [
+        {
+          "en": "The crowd chanted the same words.",
+          "tr": "Kalabalık aynı sözleri ritmik biçimde söyledi.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-chant",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "chant",
+        "chaunt"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Chaunt / Chant"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          506
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "Chaunt eski yazım varyantıdır. Standart çalışma biçimi chant; eski biçim kaybolmadı.",
+      "sources": [
+        "https://www.merriam-webster.com/dictionary/chaunt"
+      ],
+      "verificationDetails": {
+        "scope": "selected-usage-note",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "crutch",
+      "meaning": "koltuk değneği",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "He used a crutch to walk.",
+          "tr": "Yürümek için bir koltuk değneği kullandı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-crutch",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "crutch"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Crutch"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          526
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    },
+    {
+      "term": "stick",
+      "meaning": "sopa; çubuk",
+      "partOfSpeech": "noun",
+      "examples": [
+        {
+          "en": "The boy picked up a stick.",
+          "tr": "Çocuk bir çubuk aldı.",
+          "origin": "created-for-study"
+        }
+      ],
+      "id": "ot-stick",
+      "ipa": "",
+      "pronunciationTr": "",
+      "level": "unknown",
+      "acceptedAnswers": [
+        "stick"
+      ],
+      "tags": [
+        "Oliver Twist",
+        "kelime"
+      ],
+      "verification": "unverified",
+      "sourceForms": [
+        "Stick"
+      ],
+      "provenance": {
+        "file": "data/inbox/2026-10-28-oliver-twist.txt",
+        "lines": [
+          528
+        ],
+        "origin": "AI-conversation-summary",
+        "examples": "created-for-study"
+      },
+      "notes": "",
+      "sources": [],
+      "verificationDetails": {
+        "scope": "editorial-cleaning-only",
+        "allFieldsDictionaryVerified": false
+      }
+    }
+  ],
+  "studyNotes": [
+    {
+      "title": "if: şart ve dolaylı soru",
+      "text": "Şart cümlesinde if = eğer; wonder if gibi yapılarda = olup olmadığını. Dolaylı soruda düz cümle sırası korunur.",
+      "en": "I wonder if they are going to work.",
+      "tr": "İşe gidip gitmediklerini merak ediyorum."
+    },
+    {
+      "title": "without + V-ing",
+      "text": "Without bir edattır; ardından fiil gelirse -ing biçimi kullanılır. Yapmadan anlamı verir.",
+      "en": "He left without saying goodbye.",
+      "tr": "Hoşça kal demeden ayrıldı."
+    },
+    {
+      "title": "make + kişi + yalın fiil",
+      "text": "Etken yapıda make birine bir şey yaptırır; make me feel içinde feel önüne to gelmez.",
+      "en": "The story made me feel sad.",
+      "tr": "Hikâye beni üzdü."
+    },
+    {
+      "title": "have to + yalın fiil",
+      "text": "Zorunluluk bildirir. Geçmişi had to; üçüncü tekil şahsı has to biçimindedir.",
+      "en": "They had to leave.",
+      "tr": "Gitmek zorundaydılar."
+    },
+    {
+      "title": "teach + kişi + how to + fiil",
+      "text": "Birine bir eylemin nasıl yapılacağını öğretmek. Teach → taught → taught.",
+      "en": "She taught him how to read.",
+      "tr": "Ona okumayı öğretti."
+    },
+    {
+      "title": "mind + V-ing",
+      "text": "Bir şeyi yapmaktan rahatsız olmak. Olumsuz mind, rahatsız olmamak demektir.",
+      "en": "I don't mind waiting.",
+      "tr": "Beklemekten rahatsız olmam."
+    },
+    {
+      "title": "Past Continuous",
+      "text": "Was/were + V-ing geçmişte sürmekte olan eylemi anlatır. Were going to work ifadesi bağlama göre fiziksel olarak işe gidiyor olmak veya go to work eylemini yapacak olmak şeklinde yorumlanabilir; yalnız bu parçayla niyet yapısı kesinleştirilmez.",
+      "en": "Oliver was wondering where they were going.",
+      "tr": "Oliver nereye gittiklerini merak ediyordu."
+    },
+    {
+      "title": "Past Perfect Continuous",
+      "text": "Had been + V-ing geçmişteki başka bir noktadan önce sürmekte olan eyleme odaklanır.",
+      "en": "She had been sleeping for hours before she woke up.",
+      "tr": "Uyanmadan önce saatlerdir uyuyordu."
+    },
+    {
+      "title": "what + özne + fiil",
+      "text": "What they had to do, yapmaları gereken şey anlamında bir isim cümleciğidir. What burada yalnız başına ne? sorusu değildir.",
+      "en": "They finished what they had to do.",
+      "tr": "Yapmaları gereken şeyi bitirdiler."
+    },
+    {
+      "title": "as + cümle",
+      "text": "Karşılaştırmalı kullanımda gibi anlamı verebilir; did önceki eylemi tekrar etmeden temsil eder.",
+      "en": "He smiled as the others did.",
+      "tr": "Diğerlerinin yaptığı gibi gülümsedi."
+    },
+    {
+      "title": "the + adjective",
+      "text": "The young ve the old insan gruplarını topluca ifade eder; bu kullanımda sıfata çoğul -s eklenmez. Yaşlılardan söz ederken bağlama göre older people daha nötrdür.",
+      "en": "The young and the old need care.",
+      "tr": "Gençlerin ve yaşlıların bakıma ihtiyacı var."
+    },
+    {
+      "title": "edilgen yapı",
+      "text": "Be + V3; eylemi kimin yaptığı yerine eylemden etkileneni öne çıkarır. Was kidnapped, geçmiş zamanda kaçırıldı; can be found, bulunabilir demektir.",
+      "en": "He was dragged along the street.",
+      "tr": "Sokak boyunca sürüklendi."
+    },
+    {
+      "title": "want + kişi + to + fiil",
+      "text": "Birinin bir şeyi yapmasını istemek.",
+      "en": "She wanted him to accept the offer.",
+      "tr": "Onun teklifi kabul etmesini istedi."
+    },
+    {
+      "title": "convince + kişi + to + fiil",
+      "text": "Birini bir eylemi yapmaya ikna etmek.",
+      "en": "They convinced him to stay.",
+      "tr": "Onu kalmaya ikna ettiler."
+    },
+    {
+      "title": "deserve + to + fiil",
+      "text": "Bir eylemi yapmayı veya bir durumu yaşamayı hak etmek.",
+      "en": "He deserves to be happy.",
+      "tr": "Mutlu olmayı hak ediyor."
+    },
+    {
+      "title": "relative clause ve whom",
+      "text": "Whom, insanlardan söz ederken fiilin veya edatın nesnesi olan ilgi/soru zamiridir; sabit bir Türkçe ekle birebir eşleşmez. Yazılı/resmî dilde daha yaygındır.",
+      "en": "The child whom she helped was hungry.",
+      "tr": "Yardım ettiği çocuk açtı."
+    },
+    {
+      "title": "participial clause",
+      "text": "Wanting gibi -ing ile başlayan ek yapı, ana cümlenin öznesiyle bağlantılı ek eylem/istek anlatabilir. Bu örnekte isteyen kişi ana cümlenin öznesidir.",
+      "en": "He looked at Oliver, wanting him to accept the idea.",
+      "tr": "Oliver'ın fikri kabul etmesini isteyerek ona baktı."
+    },
+    {
+      "title": "düzensiz biçimler",
+      "text": "Shoot → shot → shot; ring → rang → rung; teach → taught → taught; bend → bent → bent; shut → shut → shut. Goose → geese ise fiil çekimi değil, düzensiz çoğuldur.",
+      "en": "He rang the bell.",
+      "tr": "Zili çaldı."
+    },
+    {
+      "title": "permit ve accompany",
+      "text": "Permit someone to do something: birinin yapmasına izin vermek. Accompany someone: birine eşlik etmek; bu anlamda nesnenin önüne with konmaz.",
+      "en": "She accompanied him to the station.",
+      "tr": "Ona istasyona kadar eşlik etti."
+    },
+    {
+      "title": "need to be + V3",
+      "text": "Edilgen gereklilik: bir şeyin yapılması gerekmesi. Didn't need to be cleaned, temizlenmesine gerek yoktu.",
+      "en": "The bowls didn't need to be cleaned.",
+      "tr": "Kâselerin temizlenmesine gerek yoktu."
+    },
+    {
+      "title": "would + yalın fiil",
+      "text": "He would die tek başına bağlama göre ölecekti veya ölürdü olabilir; geçmişte gelecek ya da varsayımsal sonuç olarak okunabilir.",
+      "en": "Without help, he would die.",
+      "tr": "Yardım olmadan ölecekti."
+    },
+    {
+      "title": "admit doing ve agree to let",
+      "text": "Admit doing, çoğunlukla bir şeyi yaptığını kabul etmektir; çalışmasına izin vermeyi kabul etmek için agree to let someone work daha uygundur.",
+      "en": "Mr. Sowerberry agreed to let Oliver work in his shop.",
+      "tr": "Bay Sowerberry, Oliver'ın dükkânında çalışmasına izin vermeyi kabul etti."
+    },
+    {
+      "title": "İnceleme: Foryos",
+      "text": "Furious olabileceği yalnız bir tahmin. Doğrulanmış kelime olarak eklenmedi."
+    },
+    {
+      "title": "İnceleme: Convet",
+      "text": "Convert, convict ve convent farklı anlamlara gelir. Kitap cümlesi görülmeden seçim yapılmadı."
+    },
+    {
+      "title": "İnceleme: House they finished what they had to do.",
+      "text": "House yerine how yazıldığı varsayılmadı. What they had to do yapısı ayrı korundu."
+    },
+    {
+      "title": "İnceleme: Rose had been sleeping deeply for a long time that she woke up from this longig lasting step",
+      "text": "Önceki özetteki before she finally woke up önerisi anlamı kesin geri kurmaz. longig lasting step ifadesinin aslı kitap sayfasından doğrulanmalı."
+    },
+    {
+      "title": "İnceleme: The policeman involved Oliver along the street.",
+      "text": "Involve bu cümlede sürüklemek demek değildir. Dragged ile bir öğretici alternatif mümkün; kitabın gerçek cümlesi olduğu iddia edilmedi."
+    },
+    {
+      "title": "İnceleme: He was shut.",
+      "text": "Bir insan için tek başına doğal ve açık bir hapsedilme cümlesi değildir. He was shut in a room, bir odaya kapatıldı, yalnız açıklayıcı tamamlamadır."
+    },
+    {
+      "title": "Cümle bağlamı 1",
+      "text": "if burada eğer değil, olup olmadığını anlatır; was wondering geçmişte süren meraktır.",
+      "original": "The three boys went out. Oliver was wondering if they were going to work.",
+      "en": "The three boys went out. Oliver was wondering if they were going to work.",
+      "tr": "Üç çocuk dışarı çıktı. Oliver onların işe gidip gitmediklerini merak ediyordu."
+    },
+    {
+      "title": "Cümle bağlamı 2",
+      "text": "Dragged kullanımı yalnız açıklayıcı alternatiftir; involve yerine kitapta hangi kelimenin geçtiği doğrulanmadı.",
+      "original": "The policeman involved Oliver along the street.",
+      "en": "The policeman dragged Oliver along the street.",
+      "tr": "Polis Oliver'ı sokak boyunca sürükledi."
+    },
+    {
+      "title": "Cümle bağlamı 3",
+      "text": "If so; as ... did; without + V-ing; make + kişi + yalın fiil. It zamirinin hangi nesneye karşılık geldiği bilinmiyor.",
+      "original": "If so, can you take it as the others did without making me feel it?",
+      "en": "If so, can you take it as the others did without making me feel it?",
+      "tr": "Eğer öyleyse, diğerlerinin yaptığı gibi, bana hissettirmeden onu alabilir misin?"
+    },
+    {
+      "title": "Cümle bağlamı 4",
+      "text": "Başlangıç belirsiz; how olduğu varsayılmadı. What they had to do = yapmaları gereken şey.",
+      "original": "House they finished what they had to do.",
+      "en": "",
+      "tr": ""
+    },
+    {
+      "title": "Cümle bağlamı 5",
+      "text": "Kaynak cümlede enterprise girişim anlamında yorumlanabilir. Bu cümle modern, öğretici bir yeniden yazımdır; kitabın aslı değildir.",
+      "original": "We must have another enterprise to take Oliver back.",
+      "en": "We must make another attempt to bring Oliver back.",
+      "tr": "Oliver'ı geri getirmek için bir kez daha girişimde bulunmalıyız."
+    },
+    {
+      "title": "Cümle bağlamı 6",
+      "text": "Don't need to = gerek olmamak; that + cümle; was kidnapped = geçmiş zamanda edilgen.",
+      "original": "I don't need to tell you that he was kidnapped.",
+      "en": "I don't need to tell you that he was kidnapped.",
+      "tr": "Onun kaçırıldığını sana söylememe gerek yok."
+    },
+    {
+      "title": "Cümle bağlamı 7",
+      "text": "Metin bozuk; before she finally woke up önceki AI'ın olası yeniden yazımıdır. Orijinal kitap sayfası olmadan kesin düzeltme yapılmadı.",
+      "original": "Rose had been sleeping deeply for a long time that she woke up from this longig lasting step",
+      "en": "",
+      "tr": ""
+    },
+    {
+      "title": "Cümle bağlamı 8",
+      "text": "He young → the young; topluluk anlamındaki the old için olds kullanılmaz. Noktalama ve doğal ifade düzenlendi; bu bir öğretici yeniden yazımdır.",
+      "original": "Bad things can often appear in a kind home, the things like badness or death can be found among he young as much as the olds.",
+      "en": "Bad things can appear even in a kind home. Things like evil or death can affect the young as much as the old.",
+      "tr": "Kötü şeyler şefkatli bir evde bile ortaya çıkabilir. Kötülük veya ölüm gibi şeyler gençleri de yaşlılar kadar etkileyebilir."
+    },
+    {
+      "title": "Cümle bağlamı 9",
+      "text": "In a room kaynakta yoktur; eksik bağlamı açıklamak için eklenen örnektir.",
+      "original": "He was shut.",
+      "en": "He was shut in a room.",
+      "tr": "Bir odaya kapatıldı."
+    },
+    {
+      "title": "Cümle bağlamı 10",
+      "text": "His desire to eat bir isim grubudur; to eat, ne yapma arzusunu belirtir.",
+      "original": "She didn't like his desire to eat.",
+      "en": "She didn't like his desire to eat.",
+      "tr": "Onun yemek yeme arzusundan hoşlanmıyordu."
+    },
+    {
+      "title": "Cümle bağlamı 11",
+      "text": "Mind ardından sleeping gelir; among bir grubun içinde/arasında anlamındadır.",
+      "original": "I hope you don't mind sleeping among the coffins.",
+      "en": "I hope you don't mind sleeping among the coffins.",
+      "tr": "Umarım tabutların arasında uyumaktan rahatsız olmazsın."
+    },
+    {
+      "title": "Cümle bağlamı 12",
+      "text": "Want to ardından bağlamdan bilinen eylem söylenmeden bırakılmıştır.",
+      "original": "In any case, it doesn't matter if you want to or not.",
+      "en": "In any case, it doesn't matter if you want to or not.",
+      "tr": "Her hâlükârda, isteyip istememenin önemi yok."
+    },
+    {
+      "title": "Cümle bağlamı 13",
+      "text": "That's why sonuç açıklaması; take pity on someone birine acımak.",
+      "original": "That's why everybody takes pity on you.",
+      "en": "That's why everybody takes pity on you.",
+      "tr": "İşte bu yüzden herkes sana acıyor."
+    },
+    {
+      "title": "Cümle bağlamı 14",
+      "text": "Karaktere yönelik sözdür; kullanıcının yaşamına ilişkin bilgi değildir. Mum Britanya İngilizcesindeki samimi anne ifadesidir.",
+      "original": "Your mum was a prostitute.",
+      "en": "Your mum was a prostitute.",
+      "tr": "Annen bir seks işçisiydi."
+    },
+    {
+      "title": "Cümle bağlamı 15",
+      "text": "Geçmişte gelecek veya varsayımsal sonuç; kesin yorum için bağlam gerekir.",
+      "original": "He would die.",
+      "en": "He would die.",
+      "tr": "Ölecekti / ölürdü."
+    },
+    {
+      "title": "Cümle bağlamı 16",
+      "text": "Eşya asma anlamında hung kullanılır; burada hanging on a string durum anlatan doğal bir seçenektir.",
+      "original": "There were a lot of silk handkerchiefs hanged on a string.",
+      "en": "There were a lot of silk handkerchiefs hanging on a string.",
+      "tr": "Bir ipte asılı duran çok sayıda ipek mendil vardı."
+    },
+    {
+      "title": "Cümle bağlamı 17",
+      "text": "Admitted Oliver's working başka bir kabul anlamı verebilir; izin verme yorumu için agreed to let seçildi. Kitap aslı teyit edilmedi.",
+      "original": "Mr sowerberry admitted olivers working in his shop",
+      "en": "Mr. Sowerberry agreed to let Oliver work in his shop.",
+      "tr": "Bay Sowerberry, Oliver'ın dükkânında çalışmasına izin vermeyi kabul etti."
+    },
+    {
+      "title": "Cümle bağlamı 18",
+      "text": "The children belirli çocuk grubunu gösterir. Need to be + V3; leave = bırakmak; even a drop = bir damla bile.",
+      "original": "The bowls didn't need to be cleaned because children didn't leave even a drop in them.",
+      "en": "The bowls didn't need to be cleaned because the children didn't leave even a drop in them.",
+      "tr": "Çocuklar içlerinde bir damla bile bırakmadığı için kâselerin temizlenmesine gerek yoktu."
+    },
+    {
+      "title": "Cümle bağlamı 19",
+      "text": "Lifted = kaldırdı (lift); announcement = duyuru; pant burada nefes nefese söylemek. Kitap cümlesi olduğu doğrulanmadı.",
+      "original": "He lifted his cane and panted the announcement.",
+      "en": "He lifted his cane and panted the announcement.",
+      "tr": "Bastonunu kaldırdı ve duyuruyu nefes nefese söyledi."
+    }
+  ]
+}

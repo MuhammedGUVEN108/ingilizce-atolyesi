@@ -1,0 +1,184 @@
+{
+  "id": "demo",
+  "title": "Başlangıç · Örnek set",
+  "folder": "Örnekler",
+  "description": "Bu 8 kelime arayüzü denemen içindir; kişisel çalışma listen değildir.",
+  "words": [
+    {
+      "id": "demo-1",
+      "term": "achieve",
+      "meaning": "başarmak",
+      "ipa": "/əˈtʃiːv/",
+      "pronunciationTr": "ı-ÇİİV",
+      "partOfSpeech": "verb",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "You can achieve your goals.",
+          "tr": "Hedeflerine ulaşabilirsin."
+        }
+      ],
+      "acceptedAnswers": [
+        "achieve"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-2",
+      "term": "curious",
+      "meaning": "meraklı",
+      "ipa": "/ˈkjʊəriəs/",
+      "pronunciationTr": "KYU-ri-ıs",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "I am curious about the world.",
+          "tr": "Dünyayı merak ediyorum."
+        }
+      ],
+      "acceptedAnswers": [
+        "curious"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-3",
+      "term": "improve",
+      "meaning": "geliştirmek",
+      "ipa": "/ɪmˈpruːv/",
+      "pronunciationTr": "im-PRUUV",
+      "partOfSpeech": "verb",
+      "level": "A2",
+      "examples": [
+        {
+          "en": "I want to improve my English.",
+          "tr": "İngilizcemi geliştirmek istiyorum."
+        }
+      ],
+      "acceptedAnswers": [
+        "improve"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-4",
+      "term": "effort",
+      "meaning": "çaba",
+      "ipa": "/ˈefət/",
+      "pronunciationTr": "E-fıt",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Learning takes time and effort.",
+          "tr": "Öğrenmek zaman ve çaba gerektirir."
+        }
+      ],
+      "acceptedAnswers": [
+        "effort"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-5",
+      "term": "reliable",
+      "meaning": "güvenilir",
+      "ipa": "/rɪˈlaɪəbl/",
+      "pronunciationTr": "ri-LAY-ı-bıl",
+      "partOfSpeech": "adjective",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "She is a reliable friend.",
+          "tr": "O güvenilir bir arkadaştır."
+        }
+      ],
+      "acceptedAnswers": [
+        "reliable"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-6",
+      "term": "figure out",
+      "meaning": "çözmek; anlamak",
+      "ipa": "/ˈfɪɡər aʊt/",
+      "pronunciationTr": "Fİ-gır aut",
+      "partOfSpeech": "phrasal verb",
+      "level": "B2",
+      "examples": [
+        {
+          "en": "We can figure out the answer.",
+          "tr": "Cevabı bulabiliriz."
+        }
+      ],
+      "acceptedAnswers": [
+        "figure out"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-7",
+      "term": "although",
+      "meaning": "-e rağmen; her ne kadar",
+      "ipa": "/ɔːlˈðəʊ/",
+      "pronunciationTr": "ool-DOU",
+      "partOfSpeech": "conjunction",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "Although it was cold, we went outside.",
+          "tr": "Hava soğuk olmasına rağmen dışarı çıktık."
+        }
+      ],
+      "acceptedAnswers": [
+        "although"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    },
+    {
+      "id": "demo-8",
+      "term": "opportunity",
+      "meaning": "fırsat",
+      "ipa": "/ˌɒpəˈtjuːnəti/",
+      "pronunciationTr": "o-pı-TYUU-nı-ti",
+      "partOfSpeech": "noun",
+      "level": "B1",
+      "examples": [
+        {
+          "en": "This is a great opportunity to learn.",
+          "tr": "Bu, öğrenmek için büyük bir fırsat."
+        }
+      ],
+      "acceptedAnswers": [
+        "opportunity"
+      ],
+      "tags": [
+        "örnek"
+      ],
+      "verification": "illustrative"
+    }
+  ]
+}

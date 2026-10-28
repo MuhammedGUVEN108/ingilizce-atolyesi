@@ -1,0 +1,23 @@
+{
+  "source": "C:/Users/Muhammed/Desktop/oliver twist.txt",
+  "archive": "data/inbox/2026-10-28-oliver-twist.txt",
+  "sha256": "8eeb037873e1c65da0aee4bc72036a16fca2cfcd5c7fad42d9ea4740f5e72493",
+  "sourceBytes": 27002,
+  "sourceLines": 593,
+  "vocabularyCards": 70,
+  "phraseCards": 38,
+  "grammarNotes": 22,
+  "reviewIssues": 13,
+  "unresolvedSpellings": [
+    "Foryos",
+    "Convet"
+  ],
+  "counts": {
+    "grammar-note": 10,
+    "sentence-evidence": 5,
+    "study-card": 118,
+    "unresolved": 2
+  },
+  "verification": "All fields are not dictionary-verified; selected usage corrections have sources. CEFR and missing IPA not guessed.",
+  "sentenceContexts": 19
+}

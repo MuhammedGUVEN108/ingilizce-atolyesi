@@ -1,0 +1,99 @@
+[
+  {
+    "id": "foryos",
+    "original": "Foryos",
+    "type": "Belirsiz yazım",
+    "note": "Furious olabileceği yalnız bir tahmin. Doğrulanmış kelime olarak eklenmedi.",
+    "needsUserContext": true
+  },
+  {
+    "id": "convet",
+    "original": "Convet",
+    "type": "Belirsiz yazım",
+    "note": "Convert, convict ve convent farklı anlamlara gelir. Kitap cümlesi görülmeden seçim yapılmadı.",
+    "needsUserContext": true
+  },
+  {
+    "id": "house",
+    "original": "House they finished what they had to do.",
+    "type": "Belirsiz cümle başlangıcı",
+    "note": "House yerine how yazıldığı varsayılmadı. What they had to do yapısı ayrı korundu.",
+    "needsUserContext": true
+  },
+  {
+    "id": "rose",
+    "original": "Rose had been sleeping deeply for a long time that she woke up from this longig lasting step",
+    "type": "Bozuk aktarım",
+    "note": "Önceki özetteki before she finally woke up önerisi anlamı kesin geri kurmaz. longig lasting step ifadesinin aslı kitap sayfasından doğrulanmalı.",
+    "needsUserContext": true
+  },
+  {
+    "id": "involved",
+    "original": "The policeman involved Oliver along the street.",
+    "type": "Anlama uymayan fiil",
+    "note": "Involve bu cümlede sürüklemek demek değildir. Dragged ile bir öğretici alternatif mümkün; kitabın gerçek cümlesi olduğu iddia edilmedi.",
+    "source": "https://dictionary.cambridge.org/dictionary/english/drag",
+    "needsUserContext": true
+  },
+  {
+    "id": "shut",
+    "original": "He was shut.",
+    "type": "Eksik bağlam",
+    "note": "Bir insan için tek başına doğal ve açık bir hapsedilme cümlesi değildir. He was shut in a room, bir odaya kapatıldı, yalnız açıklayıcı tamamlamadır.",
+    "needsUserContext": true
+  },
+  {
+    "id": "admit",
+    "original": "Mr sowerberry admitted olivers working in his shop",
+    "type": "Bağlam ve kullanım ayrımı",
+    "note": "Admit bir gerçeği kabul etmek/itiraf etmek veya içeri almak olabilir. Birinin çalışmasına izin vermeyi kabul etmek için agreed to let Oliver work daha uygun bir yeniden yazımdır.",
+    "source": "https://dictionary.cambridge.org/us/dictionary/english/admit",
+    "needsUserContext": false
+  },
+  {
+    "id": "hung",
+    "original": "There were a lot of silk handkerchiefs hanged on a string.",
+    "type": "Çekim düzeltmesi",
+    "note": "Eşyaların asılması için güncel standart biçim hung; hanging on a string durum bildiren doğal bir alternatiftir. Hanged çoğunlukla idam bağlamında kullanılır.",
+    "source": "https://www.merriam-webster.com/grammar/hung-or-hanged",
+    "needsUserContext": false
+  },
+  {
+    "id": "dragged",
+    "original": "Dragged",
+    "type": "Etken/edilgen ayrımı",
+    "note": "Dragged tek başına sürükledi (V2) veya sürüklenmiş (V3) olabilir. Was dragged sürüklendi demektir; çekimli sözcüğe tek başına edilgen anlam yüklenmedi.",
+    "source": "https://dictionary.cambridge.org/dictionary/english/drag",
+    "needsUserContext": false
+  },
+  {
+    "id": "chaunt",
+    "original": "Chaunt / Chant",
+    "type": "Tarihî yazım",
+    "note": "Chaunt, chant kelimesinin eski yazım varyantıdır; bağımsız yanlış kelime sayılmadı. Güncel çalışma başlığı chant, tarihî biçim notlarda korundu.",
+    "source": "https://www.merriam-webster.com/dictionary/chaunt",
+    "needsUserContext": false
+  },
+  {
+    "id": "whom",
+    "original": "Whom",
+    "type": "Aşırı basitleştirilmiş çeviri",
+    "note": "-dığı kişi gibi tek bir çeviri ezberletilmedi. Whom kişi için kullanılan nesne zamiridir; çeviri tüm cümleye bağlıdır.",
+    "source": "https://dictionary.cambridge.org/us/grammar/british-grammar/who-whom",
+    "needsUserContext": false
+  },
+  {
+    "id": "counts",
+    "original": "Toplam 13 kelime ve kalıp",
+    "type": "Tutarsız toplamlar",
+    "note": "Özetlerdeki toplamlar veri kabul edilmedi: 13 denilen tabloda 14 satır; 4 cümle denilen bölümde 5 cümle var. Sayımlar temiz kayıtlar üzerinden yeniden yapıldı.",
+    "needsUserContext": false
+  },
+  {
+    "id": "examples",
+    "original": "Örneklerin bir kısmı",
+    "type": "Kaynak güvenilirliği",
+    "note": "Dosya ham kitap metni veya ham sohbet değil, AI sohbet özetlerinin birleştirilmiş hâli. Örnekler kitaptan kesin alıntı değildir; kaynak satırları ve yeni üretilen örnekler ayrıldı.",
+    "needsUserContext": false
+  }
+]

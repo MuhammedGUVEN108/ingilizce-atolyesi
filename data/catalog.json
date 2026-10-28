@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "sets": [
+    {
+      "id": "oliver-twist-words",
+      "file": "data/sets/oliver-twist-words.json"
+    },
+    {
+      "id": "oliver-twist-phrases",
+      "file": "data/sets/oliver-twist-phrases.json"
+    },
+    {
+      "id": "demo",
+      "file": "data/sets/demo.json"
+    }
+  ]
+}

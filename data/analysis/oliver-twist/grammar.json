@@ -1,0 +1,244 @@
+[
+  {
+    "id": "ot-grammar-1",
+    "title": "if: şart ve dolaylı soru",
+    "explanation": "Şart cümlesinde if = eğer; wonder if gibi yapılarda = olup olmadığını. Dolaylı soruda düz cümle sırası korunur.",
+    "example": {
+      "en": "I wonder if they are going to work.",
+      "tr": "İşe gidip gitmediklerini merak ediyorum.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-2",
+    "title": "without + V-ing",
+    "explanation": "Without bir edattır; ardından fiil gelirse -ing biçimi kullanılır. Yapmadan anlamı verir.",
+    "example": {
+      "en": "He left without saying goodbye.",
+      "tr": "Hoşça kal demeden ayrıldı.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-3",
+    "title": "make + kişi + yalın fiil",
+    "explanation": "Etken yapıda make birine bir şey yaptırır; make me feel içinde feel önüne to gelmez.",
+    "example": {
+      "en": "The story made me feel sad.",
+      "tr": "Hikâye beni üzdü.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-4",
+    "title": "have to + yalın fiil",
+    "explanation": "Zorunluluk bildirir. Geçmişi had to; üçüncü tekil şahsı has to biçimindedir.",
+    "example": {
+      "en": "They had to leave.",
+      "tr": "Gitmek zorundaydılar.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-5",
+    "title": "teach + kişi + how to + fiil",
+    "explanation": "Birine bir eylemin nasıl yapılacağını öğretmek. Teach → taught → taught.",
+    "example": {
+      "en": "She taught him how to read.",
+      "tr": "Ona okumayı öğretti.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-6",
+    "title": "mind + V-ing",
+    "explanation": "Bir şeyi yapmaktan rahatsız olmak. Olumsuz mind, rahatsız olmamak demektir.",
+    "example": {
+      "en": "I don't mind waiting.",
+      "tr": "Beklemekten rahatsız olmam.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-7",
+    "title": "Past Continuous",
+    "explanation": "Was/were + V-ing geçmişte sürmekte olan eylemi anlatır. Were going to work ifadesi bağlama göre fiziksel olarak işe gidiyor olmak veya go to work eylemini yapacak olmak şeklinde yorumlanabilir; yalnız bu parçayla niyet yapısı kesinleştirilmez.",
+    "example": {
+      "en": "Oliver was wondering where they were going.",
+      "tr": "Oliver nereye gittiklerini merak ediyordu.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-8",
+    "title": "Past Perfect Continuous",
+    "explanation": "Had been + V-ing geçmişteki başka bir noktadan önce sürmekte olan eyleme odaklanır.",
+    "example": {
+      "en": "She had been sleeping for hours before she woke up.",
+      "tr": "Uyanmadan önce saatlerdir uyuyordu.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-9",
+    "title": "what + özne + fiil",
+    "explanation": "What they had to do, yapmaları gereken şey anlamında bir isim cümleciğidir. What burada yalnız başına ne? sorusu değildir.",
+    "example": {
+      "en": "They finished what they had to do.",
+      "tr": "Yapmaları gereken şeyi bitirdiler.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-10",
+    "title": "as + cümle",
+    "explanation": "Karşılaştırmalı kullanımda gibi anlamı verebilir; did önceki eylemi tekrar etmeden temsil eder.",
+    "example": {
+      "en": "He smiled as the others did.",
+      "tr": "Diğerlerinin yaptığı gibi gülümsedi.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-11",
+    "title": "the + adjective",
+    "explanation": "The young ve the old insan gruplarını topluca ifade eder; bu kullanımda sıfata çoğul -s eklenmez. Yaşlılardan söz ederken bağlama göre older people daha nötrdür.",
+    "example": {
+      "en": "The young and the old need care.",
+      "tr": "Gençlerin ve yaşlıların bakıma ihtiyacı var.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-12",
+    "title": "edilgen yapı",
+    "explanation": "Be + V3; eylemi kimin yaptığı yerine eylemden etkileneni öne çıkarır. Was kidnapped, geçmiş zamanda kaçırıldı; can be found, bulunabilir demektir.",
+    "example": {
+      "en": "He was dragged along the street.",
+      "tr": "Sokak boyunca sürüklendi.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-13",
+    "title": "want + kişi + to + fiil",
+    "explanation": "Birinin bir şeyi yapmasını istemek.",
+    "example": {
+      "en": "She wanted him to accept the offer.",
+      "tr": "Onun teklifi kabul etmesini istedi.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-14",
+    "title": "convince + kişi + to + fiil",
+    "explanation": "Birini bir eylemi yapmaya ikna etmek.",
+    "example": {
+      "en": "They convinced him to stay.",
+      "tr": "Onu kalmaya ikna ettiler.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-15",
+    "title": "deserve + to + fiil",
+    "explanation": "Bir eylemi yapmayı veya bir durumu yaşamayı hak etmek.",
+    "example": {
+      "en": "He deserves to be happy.",
+      "tr": "Mutlu olmayı hak ediyor.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-16",
+    "title": "relative clause ve whom",
+    "explanation": "Whom, insanlardan söz ederken fiilin veya edatın nesnesi olan ilgi/soru zamiridir; sabit bir Türkçe ekle birebir eşleşmez. Yazılı/resmî dilde daha yaygındır.",
+    "example": {
+      "en": "The child whom she helped was hungry.",
+      "tr": "Yardım ettiği çocuk açtı.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-17",
+    "title": "participial clause",
+    "explanation": "Wanting gibi -ing ile başlayan ek yapı, ana cümlenin öznesiyle bağlantılı ek eylem/istek anlatabilir. Bu örnekte isteyen kişi ana cümlenin öznesidir.",
+    "example": {
+      "en": "He looked at Oliver, wanting him to accept the idea.",
+      "tr": "Oliver'ın fikri kabul etmesini isteyerek ona baktı.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-18",
+    "title": "düzensiz biçimler",
+    "explanation": "Shoot → shot → shot; ring → rang → rung; teach → taught → taught; bend → bent → bent; shut → shut → shut. Goose → geese ise fiil çekimi değil, düzensiz çoğuldur.",
+    "example": {
+      "en": "He rang the bell.",
+      "tr": "Zili çaldı.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-19",
+    "title": "permit ve accompany",
+    "explanation": "Permit someone to do something: birinin yapmasına izin vermek. Accompany someone: birine eşlik etmek; bu anlamda nesnenin önüne with konmaz.",
+    "example": {
+      "en": "She accompanied him to the station.",
+      "tr": "Ona istasyona kadar eşlik etti.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-20",
+    "title": "need to be + V3",
+    "explanation": "Edilgen gereklilik: bir şeyin yapılması gerekmesi. Didn't need to be cleaned, temizlenmesine gerek yoktu.",
+    "example": {
+      "en": "The bowls didn't need to be cleaned.",
+      "tr": "Kâselerin temizlenmesine gerek yoktu.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-21",
+    "title": "would + yalın fiil",
+    "explanation": "He would die tek başına bağlama göre ölecekti veya ölürdü olabilir; geçmişte gelecek ya da varsayımsal sonuç olarak okunabilir.",
+    "example": {
+      "en": "Without help, he would die.",
+      "tr": "Yardım olmadan ölecekti.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  },
+  {
+    "id": "ot-grammar-22",
+    "title": "admit doing ve agree to let",
+    "explanation": "Admit doing, çoğunlukla bir şeyi yaptığını kabul etmektir; çalışmasına izin vermeyi kabul etmek için agree to let someone work daha uygundur.",
+    "example": {
+      "en": "Mr. Sowerberry agreed to let Oliver work in his shop.",
+      "tr": "Bay Sowerberry, Oliver'ın dükkânında çalışmasına izin vermeyi kabul etti.",
+      "origin": "created-for-study"
+    },
+    "verification": "unverified"
+  }
+]

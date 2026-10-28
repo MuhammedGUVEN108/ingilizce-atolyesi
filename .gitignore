@@ -1,0 +1,6 @@
+data/inbox/*
+!data/inbox/.gitkeep
+__pycache__/
+*.pyc
+.progress/
+.preview/

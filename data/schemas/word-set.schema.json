@@ -1,0 +1,126 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "id",
+    "title",
+    "folder",
+    "description",
+    "words"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "folder": {
+      "type": "string",
+      "minLength": 1
+    },
+    "description": {
+      "type": "string"
+    },
+    "words": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "term",
+          "meaning",
+          "ipa",
+          "pronunciationTr",
+          "partOfSpeech",
+          "level",
+          "examples",
+          "acceptedAnswers",
+          "tags",
+          "verification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9-]+$"
+          },
+          "term": {
+            "type": "string",
+            "minLength": 1
+          },
+          "meaning": {
+            "type": "string",
+            "minLength": 1
+          },
+          "ipa": {
+            "type": "string"
+          },
+          "pronunciationTr": {
+            "type": "string"
+          },
+          "partOfSpeech": {
+            "type": "string"
+          },
+          "level": {
+            "enum": [
+              "A1",
+              "A2",
+              "B1",
+              "B2",
+              "C1",
+              "C2",
+              "unknown"
+            ]
+          },
+          "examples": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "required": [
+                "en",
+                "tr"
+              ],
+              "properties": {
+                "en": {
+                  "type": "string"
+                },
+                "tr": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "acceptedAnswers": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "tags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "sources": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "verification": {
+            "enum": [
+              "verified",
+              "unverified",
+              "illustrative"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

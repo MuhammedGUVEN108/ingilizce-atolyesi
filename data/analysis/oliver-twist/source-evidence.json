@@ -1,0 +1,1357 @@
+{
+  "conversely": [
+    {
+      "line": 7,
+      "originalTerm": "Conversely",
+      "cells": [
+        "Conversely",
+        "Tersine, bunun aksine",
+        "Conversely, others prefer summer. — Bunun aksine, diğerleri yazı tercih eder."
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 301,
+      "originalTerm": "Conversely",
+      "cells": [
+        "Conversely",
+        "Tersine, aksine",
+        "Conversely, others prefer small towns."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "bleed": [
+    {
+      "line": 8,
+      "originalTerm": "Bleeding",
+      "cells": [
+        "Bleeding",
+        "Kanama, kanayan",
+        "Oliver's hand was bleeding. — Oliver'ın eli kanıyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "involve": [
+    {
+      "line": 9,
+      "originalTerm": "Involve",
+      "cells": [
+        "Involve",
+        "Dahil etmek, içermek",
+        "He was involved in a crime. — Bir suça karışmıştı."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "mug": [
+    {
+      "line": 10,
+      "originalTerm": "Mug",
+      "cells": [
+        "Mug",
+        "Kupa; gasp etmek",
+        "Two men mugged him. — İki adam onu gasp etti."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "moan": [
+    {
+      "line": 12,
+      "originalTerm": "Moan",
+      "cells": [
+        "Moan",
+        "İnlemek, sızlanmak",
+        "Oliver moaned in pain. — Oliver acı içinde inledi."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "purse": [
+    {
+      "line": 13,
+      "originalTerm": "Purse",
+      "cells": [
+        "Purse",
+        "Cüzdan, para kesesi",
+        "The thief stole her purse. — Hırsız onun cüzdanını çaldı."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "teach": [
+    {
+      "line": 14,
+      "originalTerm": "Taught",
+      "cells": [
+        "Taught",
+        "Öğretti (teach fiilinin V2/V3 hâli)",
+        "Oliver was taught how to steal. — Oliver'a nasıl hırsızlık yapılacağı öğretildi."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "along": [
+    {
+      "line": 15,
+      "originalTerm": "Along",
+      "cells": [
+        "Along",
+        "Boyunca",
+        "He walked along the street. — Sokak boyunca yürüdü."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "wonder": [
+    {
+      "line": 16,
+      "originalTerm": "Wonder",
+      "cells": [
+        "Wonder",
+        "Merak etmek",
+        "Oliver was wondering if they were going to work. — Oliver onların işe gidip gitmediklerini merak ediyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "perceive": [
+    {
+      "line": 81,
+      "originalTerm": "Perceive",
+      "cells": [
+        "Perceive",
+        "Algılamak, fark etmek, sezmek",
+        "Bir durumu veya kişinin davranışını algılamak"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 107,
+      "originalTerm": "Perceive",
+      "cells": [
+        "Perceive",
+        "He perceived a change in Oliver's behavior."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "enterprise": [
+    {
+      "line": 82,
+      "originalTerm": "Enterprise",
+      "cells": [
+        "Enterprise",
+        "Girişim, teşebbüs, işletme",
+        "Oliver'ı geri almak için yeni bir girişimde bulunmak"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 108,
+      "originalTerm": "Enterprise",
+      "cells": [
+        "Enterprise",
+        "We must have another enterprise to take Oliver back."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "irritate": [
+    {
+      "line": 83,
+      "originalTerm": "Irritate",
+      "cells": [
+        "Irritate",
+        "Sinirlendirmek, rahatsız etmek, tahriş etmek",
+        "Bir kişinin davranışından rahatsız olmak"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 109,
+      "originalTerm": "Irritate",
+      "cells": [
+        "Irritate",
+        "His behavior irritated Oliver."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "kidnap": [
+    {
+      "line": 84,
+      "originalTerm": "Kidnapped",
+      "cells": [
+        "Kidnapped",
+        "Kaçırılmış, kaçırıldı",
+        "Oliver'ın kaçırılması, edilgen yapı"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 110,
+      "originalTerm": "Kidnapped",
+      "cells": [
+        "Kidnapped",
+        "He was kidnapped."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "shiver": [
+    {
+      "line": 133,
+      "originalTerm": "Shiver",
+      "cells": [
+        "Shiver",
+        "Titremek, ürpermek",
+        "Oliver shivered with fear. — Oliver korkudan titredi."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "suffer": [
+    {
+      "line": 134,
+      "originalTerm": "Suffer",
+      "cells": [
+        "Suffer",
+        "Acı çekmek, ıstırap çekmek",
+        "Oliver suffered a lot during his childhood. — Oliver çocukluğu boyunca çok acı çekti."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "convey": [
+    {
+      "line": 136,
+      "originalTerm": "Convey",
+      "cells": [
+        "Convey",
+        "İletmek, aktarmak, ifade etmek",
+        "His face conveyed fear. — Yüzü korku ifade ediyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "deeply": [
+    {
+      "line": 137,
+      "originalTerm": "Deeply",
+      "cells": [
+        "Deeply",
+        "Derin bir şekilde",
+        "Rose had been sleeping deeply... — Rose derin bir şekilde uyuyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "long-lasting": [
+    {
+      "line": 138,
+      "originalTerm": "Long-lasting",
+      "cells": [
+        "Long-lasting",
+        "Uzun süreli, kalıcı",
+        "Uzun süren bir uykuyu anlatmak için kullanıldı."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "clerk": [
+    {
+      "line": 139,
+      "originalTerm": "Clerk",
+      "cells": [
+        "Clerk",
+        "Memur, kâtip",
+        "The clerk gave Oliver a document. — Kâtip Oliver'a bir belge verdi."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "shot": [
+    {
+      "line": 192,
+      "originalTerm": "Shot",
+      "cells": [
+        "Shot",
+        "Atış, şut, iğne, çekim",
+        "He fired a shot. → Bir el ateş etti."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "permit": [
+    {
+      "line": 193,
+      "originalTerm": "Permit",
+      "cells": [
+        "Permit",
+        "İzin vermek, izin belgesi",
+        "They permitted him to leave. → Gitmesine izin verdiler."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "curtain": [
+    {
+      "line": 194,
+      "originalTerm": "Curtain",
+      "cells": [
+        "Curtain",
+        "Perde",
+        "She opened the curtains. → Perdeleri açtı."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "creature": [
+    {
+      "line": 195,
+      "originalTerm": "Creature",
+      "cells": [
+        "Creature",
+        "Yaratık, canlı, mahluk",
+        "The poor little creature was crying. → Zavallı küçük çocuk ağlıyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "accompany": [
+    {
+      "line": 196,
+      "originalTerm": "Accompany",
+      "cells": [
+        "Accompany",
+        "Eşlik etmek, refakat etmek",
+        "She accompanied Oliver to London. → Oliver'a Londra'ya giderken eşlik etti."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "geese": [
+    {
+      "line": 197,
+      "originalTerm": "Geese",
+      "cells": [
+        "Geese",
+        "Kazlar (goose kelimesinin çoğulu)",
+        "The geese were flying over the village. → Kazlar köyün üzerinden uçuyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "appear": [
+    {
+      "line": 209,
+      "originalTerm": "Appear",
+      "cells": [
+        "Appear",
+        "Ortaya çıkmak, görünmek"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "kind": [
+    {
+      "line": 210,
+      "originalTerm": "Kind",
+      "cells": [
+        "Kind",
+        "İyi kalpli, şefkatli"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "badness": [
+    {
+      "line": 211,
+      "originalTerm": "Badness",
+      "cells": [
+        "Badness",
+        "Kötülük"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "death": [
+    {
+      "line": 212,
+      "originalTerm": "Death",
+      "cells": [
+        "Death",
+        "Ölüm"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "collapse": [
+    {
+      "line": 246,
+      "originalTerm": "Collapsed",
+      "cells": [
+        "Collapsed",
+        "Çöktü, yere yığıldı",
+        "He collapsed on the floor. — Yere yığıldı."
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 302,
+      "originalTerm": "Collapsed",
+      "cells": [
+        "Collapsed",
+        "Yere yığıldı, çöktü",
+        "Oliver collapsed on the floor."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "bend": [
+    {
+      "line": 247,
+      "originalTerm": "Bent",
+      "cells": [
+        "Bent",
+        "Eğildi, büktü, eğilmiş",
+        "He bent down to pick up the coin. — Parayı almak için eğildi."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "shut": [
+    {
+      "line": 248,
+      "originalTerm": "Shut",
+      "cells": [
+        "Shut",
+        "Kapatmak, kapatılmış",
+        "He shut the door quietly. — Kapıyı sessizce kapattı."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "cardigan": [
+    {
+      "line": 249,
+      "originalTerm": "Cardigan",
+      "cells": [
+        "Cardigan",
+        "Hırka",
+        "She was wearing a red cardigan. — Kırmızı bir hırka giyiyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "pale": [
+    {
+      "line": 250,
+      "originalTerm": "Pale",
+      "cells": [
+        "Pale",
+        "Solgun, soluk, açık renkli",
+        "Oliver looked pale and tired. — Oliver solgun ve yorgun görünüyordu."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "aide": [
+    {
+      "line": 290,
+      "originalTerm": "Aide",
+      "cells": [
+        "Aide",
+        "Yardımcı, asistan",
+        "He was the aide of the child..."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "whom": [
+    {
+      "line": 291,
+      "originalTerm": "Whom",
+      "cells": [
+        "Whom",
+        "-dığı kişi, kimi",
+        "The child whom he found in the street"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "accept": [
+    {
+      "line": 293,
+      "originalTerm": "Accept",
+      "cells": [
+        "Accept",
+        "Kabul etmek",
+        "He looked at Oliver, wanting him to accept the idea."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "except": [
+    {
+      "line": 294,
+      "originalTerm": "Except",
+      "cells": [
+        "Except",
+        "Hariç, dışında",
+        "Accept ile farkını sordun."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "convince": [
+    {
+      "line": 295,
+      "originalTerm": "Convince",
+      "cells": [
+        "Convince",
+        "İkna etmek",
+        "He convinced Oliver to accept the idea."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "embrace": [
+    {
+      "line": 297,
+      "originalTerm": "Embraced",
+      "cells": [
+        "Embraced",
+        "Sarıldı, kucakladı",
+        "She embraced Oliver warmly."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "drag": [
+    {
+      "line": 298,
+      "originalTerm": "Dragged",
+      "cells": [
+        "Dragged",
+        "Sürüklendi, zorla çekildi",
+        "He was dragged along a narrow street."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "narrow": [
+    {
+      "line": 299,
+      "originalTerm": "Narrow",
+      "cells": [
+        "Narrow",
+        "Dar",
+        "Along a narrow street"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 390,
+      "originalTerm": "Narrow",
+      "cells": [
+        "Narrow",
+        "Dar",
+        "Dar sokak veya geçit"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "ring": [
+    {
+      "line": 300,
+      "originalTerm": "Rang",
+      "cells": [
+        "Rang",
+        "Çaldı",
+        "Sikes rang a doorbell."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "deserve": [
+    {
+      "line": 303,
+      "originalTerm": "Deserve",
+      "cells": [
+        "Deserve",
+        "Hak etmek",
+        "Oliver deserves to be happy."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "desire": [
+    {
+      "line": 335,
+      "originalTerm": "Desire",
+      "cells": [
+        "Desire",
+        "Arzu, güçlü istek, arzulamak",
+        "She didn't like his desire to eat."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "compel": [
+    {
+      "line": 337,
+      "originalTerm": "Compelled",
+      "cells": [
+        "Compelled",
+        "Zorlanmış, mecbur bırakılmış",
+        "Oliver was compelled to work."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "unbearable": [
+    {
+      "line": 338,
+      "originalTerm": "Unbearable",
+      "cells": [
+        "Unbearable",
+        "Dayanılmaz, katlanılmaz",
+        "Oliver lived in unbearable conditions."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "envy": [
+    {
+      "line": 339,
+      "originalTerm": "Envy",
+      "cells": [
+        "Envy",
+        "Kıskançlık, haset, imrenmek",
+        "Oliver looked at the other children with envy."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "pity": [
+    {
+      "line": 340,
+      "originalTerm": "Pity",
+      "cells": [
+        "Pity",
+        "Acıma, merhamet",
+        "Everybody takes pity on you."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "squeeze": [
+    {
+      "line": 341,
+      "originalTerm": "Squeezing",
+      "cells": [
+        "Squeezing",
+        "Sıkmak, bastırmak, sıkıştırmak",
+        "He was squeezing Oliver's arm."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "among": [
+    {
+      "line": 360,
+      "originalTerm": "Among",
+      "cells": [
+        "Among",
+        "Arasında"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "coffin": [
+    {
+      "line": 361,
+      "originalTerm": "Coffin",
+      "cells": [
+        "Coffin",
+        "Tabut"
+      ],
+      "role": "summary-supplement"
+    },
+    {
+      "line": 503,
+      "originalTerm": "Coffins",
+      "cells": [
+        "Coffins",
+        "Tabutlar",
+        "Oliver'ın Bay Sowerberry'nin yanında çalışması"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "prostitute": [
+    {
+      "line": 366,
+      "originalTerm": "Prostitute",
+      "cells": [
+        "Prostitute",
+        "Fahişe, seks işçisi"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "mum": [
+    {
+      "line": 367,
+      "originalTerm": "Mum",
+      "cells": [
+        "Mum",
+        "Anne"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "die": [
+    {
+      "line": 388,
+      "originalTerm": "Die",
+      "cells": [
+        "Die",
+        "Ölmek",
+        "He would die."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "otherwise": [
+    {
+      "line": 389,
+      "originalTerm": "Otherwise",
+      "cells": [
+        "Otherwise",
+        "Aksi takdirde, yoksa",
+        "Önceki cümledeki ölüm ihtimaliyle ilişkili"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 421,
+      "originalTerm": "Otherwise",
+      "cells": [
+        "Otherwise",
+        "Aksi takdirde"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "silk": [
+    {
+      "line": 391,
+      "originalTerm": "Silk",
+      "cells": [
+        "Silk",
+        "İpek",
+        "İpek mendiller"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "handkerchief": [
+    {
+      "line": 392,
+      "originalTerm": "Handkerchiefs",
+      "cells": [
+        "Handkerchiefs",
+        "Mendiller",
+        "İpe asılmış ipek mendiller"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "string": [
+    {
+      "line": 393,
+      "originalTerm": "String",
+      "cells": [
+        "String",
+        "İp, sicim",
+        "Mendillerin asıldığı ip"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "hang": [
+    {
+      "line": 394,
+      "originalTerm": "Hang (hung)",
+      "cells": [
+        "Hang (hung)",
+        "Asmak, asılı durmak",
+        "Handkerchiefs hung on a string"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "examine": [
+    {
+      "line": 395,
+      "originalTerm": "Examine",
+      "cells": [
+        "Examine",
+        "İncelemek, muayene etmek",
+        "Bir nesneyi dikkatlice incelemek"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "admit": [
+    {
+      "line": 452,
+      "originalTerm": "Admit",
+      "cells": [
+        "Admit",
+        "Kabul etmek, itiraf etmek, içeri almak",
+        "Mr. Sowerberry'nin Oliver'ın dükkânında çalışmasını kabul etmesi"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "mess tin": [
+    {
+      "line": 499,
+      "originalTerm": "Mess tin",
+      "cells": [
+        "Mess tin",
+        "Metal yemek tası",
+        "Yemeklerin konulduğu metal kap"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "bowl": [
+    {
+      "line": 500,
+      "originalTerm": "Bowl",
+      "cells": [
+        "Bowl",
+        "Kase, yemek tası",
+        "Çocukların yemeklerini tamamen bitirmesi"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "ladle": [
+    {
+      "line": 501,
+      "originalTerm": "Ladle",
+      "cells": [
+        "Ladle",
+        "Kepçe",
+        "Çocuklara yemek dağıtılması"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "grasp": [
+    {
+      "line": 502,
+      "originalTerm": "Grasped",
+      "cells": [
+        "Grasped",
+        "Sıkıca tuttu, kavradı",
+        "Bir nesneyi kavrama veya bir durumu anlama"
+      ],
+      "role": "summary-listed"
+    },
+    {
+      "line": 529,
+      "originalTerm": "Grasp",
+      "cells": [
+        "Grasp",
+        "Kavramak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "cane": [
+    {
+      "line": 504,
+      "originalTerm": "Cane",
+      "cells": [
+        "Cane",
+        "Baston, değnek",
+        "Bir karakterin bastonunu kaldırması"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "pant": [
+    {
+      "line": 505,
+      "originalTerm": "Panted",
+      "cells": [
+        "Panted",
+        "Soluk soluğa kaldı, nefes nefese söyledi",
+        "Bir karakterin duyuruyu nefes nefese yapması"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "chant": [
+    {
+      "line": 506,
+      "originalTerm": "Chaunt / Chant",
+      "cells": [
+        "Chaunt / Chant",
+        "Ezgili, ritmik söylemek",
+        "Cane ile karşılaştırdığın kelime"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "crutch": [
+    {
+      "line": 526,
+      "originalTerm": "Crutch",
+      "cells": [
+        "Crutch",
+        "Koltuk değneği"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "walking stick": [
+    {
+      "line": 527,
+      "originalTerm": "Walking stick",
+      "cells": [
+        "Walking stick",
+        "Yürüyüş bastonu"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "stick": [
+    {
+      "line": 528,
+      "originalTerm": "Stick",
+      "cells": [
+        "Stick",
+        "Sopa, çubuk"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "wonder if": [
+    {
+      "line": 24,
+      "originalTerm": "Wonder if",
+      "cells": [
+        "Wonder if",
+        "... olup olmadığını merak etmek",
+        "Oliver was wondering if..."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "if so": [
+    {
+      "line": 25,
+      "originalTerm": "If so",
+      "cells": [
+        "If so",
+        "Eğer öyleyse",
+        "If so, can you take it...?"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "as the others did": [
+    {
+      "line": 26,
+      "originalTerm": "As the others did",
+      "cells": [
+        "As the others did",
+        "Diğerlerinin yaptığı gibi",
+        "Can you take it as the others did?"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "make someone feel": [
+    {
+      "line": 28,
+      "originalTerm": "Make someone feel",
+      "cells": [
+        "Make someone feel",
+        "Birine bir şeyi hissettirmek",
+        "Making me feel it"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "what they had to do": [
+    {
+      "line": 29,
+      "originalTerm": "What they had to do",
+      "cells": [
+        "What they had to do",
+        "Yapmaları gereken şey",
+        "They finished what they had to do."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "have to": [
+    {
+      "line": 30,
+      "originalTerm": "Have to + V1",
+      "cells": [
+        "Have to + V1",
+        "Zorunda olmak",
+        "They had to do"
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "go out": [
+    {
+      "line": 31,
+      "originalTerm": "Go out",
+      "cells": [
+        "Go out",
+        "Dışarı çıkmak",
+        "The three boys went out."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "go to work": [
+    {
+      "line": 32,
+      "originalTerm": "Go to work",
+      "cells": [
+        "Go to work",
+        "İşe gitmek",
+        "They were going to work."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "be involved in": [
+    {
+      "line": 33,
+      "originalTerm": "Be involved in",
+      "cells": [
+        "Be involved in",
+        "Bir şeye dahil olmak / karışmak",
+        "He was involved in a crime."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "be found among": [
+    {
+      "line": 213,
+      "originalTerm": "Be found among",
+      "cells": [
+        "Be found among",
+        "Arasında bulunmak, rastlanmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "the young": [
+    {
+      "line": 214,
+      "originalTerm": "The young",
+      "cells": [
+        "The young",
+        "Gençler"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "the old": [
+    {
+      "line": 215,
+      "originalTerm": "The old",
+      "cells": [
+        "The old",
+        "Yaşlılar"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "as much as": [
+    {
+      "line": 216,
+      "originalTerm": "As much as",
+      "cells": [
+        "As much as",
+        "... kadar, aynı ölçüde"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "afraid of": [
+    {
+      "line": 292,
+      "originalTerm": "Afraid of",
+      "cells": [
+        "Afraid of",
+        "-den korkmak",
+        "He was afraid of the child..."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "as a result": [
+    {
+      "line": 296,
+      "originalTerm": "As a result",
+      "cells": [
+        "As a result",
+        "Sonuç olarak",
+        "As a result, they will all laugh at you."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "as if": [
+    {
+      "line": 336,
+      "originalTerm": "As if",
+      "cells": [
+        "As if",
+        "Sanki, -mış gibi",
+        "She acts as if she knew everything."
+      ],
+      "role": "summary-listed"
+    }
+  ],
+  "in any case": [
+    {
+      "line": 362,
+      "originalTerm": "In any case",
+      "cells": [
+        "In any case",
+        "Her hâlükârda"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "it doesn't matter": [
+    {
+      "line": 363,
+      "originalTerm": "It doesn't matter",
+      "cells": [
+        "It doesn't matter",
+        "Önemi yok, fark etmez"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "take pity on": [
+    {
+      "line": 364,
+      "originalTerm": "Take pity on",
+      "cells": [
+        "Take pity on",
+        "Birine acımak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "that's why": [
+    {
+      "line": 365,
+      "originalTerm": "That's why",
+      "cells": [
+        "That's why",
+        "İşte bu yüzden"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "squeeze into": [
+    {
+      "line": 368,
+      "originalTerm": "Squeeze into",
+      "cells": [
+        "Squeeze into",
+        "Sıkışarak girmek"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "squeeze out": [
+    {
+      "line": 369,
+      "originalTerm": "Squeeze out",
+      "cells": [
+        "Squeeze out",
+        "Sıkarak çıkarmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "would die": [
+    {
+      "line": 420,
+      "originalTerm": "Would die",
+      "cells": [
+        "Would die",
+        "Ölecekti / ölürdü"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "narrow street": [
+    {
+      "line": 422,
+      "originalTerm": "Narrow street",
+      "cells": [
+        "Narrow street",
+        "Dar sokak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "silk handkerchiefs": [
+    {
+      "line": 423,
+      "originalTerm": "Silk handkerchiefs",
+      "cells": [
+        "Silk handkerchiefs",
+        "İpek mendiller"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "on a string": [
+    {
+      "line": 424,
+      "originalTerm": "On a string",
+      "cells": [
+        "On a string",
+        "Bir ipin üzerinde"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "hang on a string": [
+    {
+      "line": 425,
+      "originalTerm": "Hang on a string",
+      "cells": [
+        "Hang on a string",
+        "Bir ipe asılmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "examine carefully": [
+    {
+      "line": 426,
+      "originalTerm": "Examine carefully",
+      "cells": [
+        "Examine carefully",
+        "Dikkatlice incelemek"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "grasp an opportunity": [
+    {
+      "line": 530,
+      "originalTerm": "Grasp an opportunity",
+      "cells": [
+        "Grasp an opportunity",
+        "Fırsatı değerlendirmek"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "coffin maker": [
+    {
+      "line": 531,
+      "originalTerm": "Coffin maker",
+      "cells": [
+        "Coffin maker",
+        "Tabut ustası"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "coffin lid": [
+    {
+      "line": 532,
+      "originalTerm": "Coffin lid",
+      "cells": [
+        "Coffin lid",
+        "Tabut kapağı"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "pant for breath": [
+    {
+      "line": 533,
+      "originalTerm": "Pant for breath",
+      "cells": [
+        "Pant for breath",
+        "Nefes nefese kalmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "out of breath": [
+    {
+      "line": 534,
+      "originalTerm": "Out of breath",
+      "cells": [
+        "Out of breath",
+        "Nefesi kesilmiş"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "make an announcement": [
+    {
+      "line": 535,
+      "originalTerm": "Make an announcement",
+      "cells": [
+        "Make an announcement",
+        "Duyuru yapmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "ladle out": [
+    {
+      "line": 536,
+      "originalTerm": "Ladle out",
+      "cells": [
+        "Ladle out",
+        "Kepçeyle dağıtmak"
+      ],
+      "role": "summary-supplement"
+    }
+  ],
+  "sugar cane": [
+    {
+      "line": 537,
+      "originalTerm": "Sugar cane",
+      "cells": [
+        "Sugar cane",
+        "Şeker kamışı"
+      ],
+      "role": "summary-supplement"
+    }
+  ]
+}

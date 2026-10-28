@@ -1,0 +1,1461 @@
+[
+  {
+    "line": 7,
+    "cells": [
+      "1",
+      "Conversely",
+      "Tersine, bunun aksine",
+      "Conversely, others prefer summer. — Bunun aksine, diğerleri yazı tercih eder."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "conversely"
+  },
+  {
+    "line": 8,
+    "cells": [
+      "2",
+      "Bleeding",
+      "Kanama, kanayan",
+      "Oliver's hand was bleeding. — Oliver'ın eli kanıyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "bleed"
+  },
+  {
+    "line": 9,
+    "cells": [
+      "3",
+      "Involve",
+      "Dahil etmek, içermek",
+      "He was involved in a crime. — Bir suça karışmıştı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "involve"
+  },
+  {
+    "line": 10,
+    "cells": [
+      "4",
+      "Mug",
+      "Kupa; gasp etmek",
+      "Two men mugged him. — İki adam onu gasp etti."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "mug"
+  },
+  {
+    "line": 11,
+    "cells": [
+      "5",
+      "Foryos",
+      "Belirsiz, muhtemel yazım hatası",
+      "Furious (çok öfkeli) olabileceğini değerlendirmiştik ancak doğrulanmadı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "unresolved"
+  },
+  {
+    "line": 12,
+    "cells": [
+      "6",
+      "Moan",
+      "İnlemek, sızlanmak",
+      "Oliver moaned in pain. — Oliver acı içinde inledi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "moan"
+  },
+  {
+    "line": 13,
+    "cells": [
+      "7",
+      "Purse",
+      "Cüzdan, para kesesi",
+      "The thief stole her purse. — Hırsız onun cüzdanını çaldı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "purse"
+  },
+  {
+    "line": 14,
+    "cells": [
+      "8",
+      "Taught",
+      "Öğretti (teach fiilinin V2/V3 hâli)",
+      "Oliver was taught how to steal. — Oliver'a nasıl hırsızlık yapılacağı öğretildi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "teach"
+  },
+  {
+    "line": 15,
+    "cells": [
+      "9",
+      "Along",
+      "Boyunca",
+      "He walked along the street. — Sokak boyunca yürüdü."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "along"
+  },
+  {
+    "line": 16,
+    "cells": [
+      "10",
+      "Wonder",
+      "Merak etmek",
+      "Oliver was wondering if they were going to work. — Oliver onların işe gidip gitmediklerini merak ediyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "wonder"
+  },
+  {
+    "line": 24,
+    "cells": [
+      "Wonder if",
+      "... olup olmadığını merak etmek",
+      "Oliver was wondering if..."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "wonder if"
+  },
+  {
+    "line": 25,
+    "cells": [
+      "If so",
+      "Eğer öyleyse",
+      "If so, can you take it...?"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "if so"
+  },
+  {
+    "line": 26,
+    "cells": [
+      "As the others did",
+      "Diğerlerinin yaptığı gibi",
+      "Can you take it as the others did?"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "as the others did"
+  },
+  {
+    "line": 27,
+    "cells": [
+      "Without + V-ing",
+      "... yapmadan",
+      "Without making me feel it"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 28,
+    "cells": [
+      "Make someone feel",
+      "Birine bir şeyi hissettirmek",
+      "Making me feel it"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "make someone feel"
+  },
+  {
+    "line": 29,
+    "cells": [
+      "What they had to do",
+      "Yapmaları gereken şey",
+      "They finished what they had to do."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "what they had to do"
+  },
+  {
+    "line": 30,
+    "cells": [
+      "Have to + V1",
+      "Zorunda olmak",
+      "They had to do"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "have to"
+  },
+  {
+    "line": 31,
+    "cells": [
+      "Go out",
+      "Dışarı çıkmak",
+      "The three boys went out."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "go out"
+  },
+  {
+    "line": 32,
+    "cells": [
+      "Go to work",
+      "İşe gitmek",
+      "They were going to work."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "go to work"
+  },
+  {
+    "line": 33,
+    "cells": [
+      "Be involved in",
+      "Bir şeye dahil olmak / karışmak",
+      "He was involved in a crime."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "be involved in"
+  },
+  {
+    "line": 34,
+    "cells": [
+      "Teach someone how to + V1",
+      "Birine bir şeyin nasıl yapılacağını öğretmek",
+      "He taught Oliver how to steal."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 81,
+    "cells": [
+      "Perceive",
+      "Algılamak, fark etmek, sezmek",
+      "Bir durumu veya kişinin davranışını algılamak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "perceive"
+  },
+  {
+    "line": 82,
+    "cells": [
+      "Enterprise",
+      "Girişim, teşebbüs, işletme",
+      "Oliver'ı geri almak için yeni bir girişimde bulunmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "enterprise"
+  },
+  {
+    "line": 83,
+    "cells": [
+      "Irritate",
+      "Sinirlendirmek, rahatsız etmek, tahriş etmek",
+      "Bir kişinin davranışından rahatsız olmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "irritate"
+  },
+  {
+    "line": 84,
+    "cells": [
+      "Kidnapped",
+      "Kaçırılmış, kaçırıldı",
+      "Oliver'ın kaçırılması, edilgen yapı"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "kidnap"
+  },
+  {
+    "line": 107,
+    "cells": [
+      "Perceive",
+      "He perceived a change in Oliver's behavior."
+    ],
+    "sourceType": "example",
+    "disposition": "study-card",
+    "canonical": "perceive"
+  },
+  {
+    "line": 108,
+    "cells": [
+      "Enterprise",
+      "We must have another enterprise to take Oliver back."
+    ],
+    "sourceType": "example",
+    "disposition": "study-card",
+    "canonical": "enterprise"
+  },
+  {
+    "line": 109,
+    "cells": [
+      "Irritate",
+      "His behavior irritated Oliver."
+    ],
+    "sourceType": "example",
+    "disposition": "study-card",
+    "canonical": "irritate"
+  },
+  {
+    "line": 110,
+    "cells": [
+      "Kidnapped",
+      "He was kidnapped."
+    ],
+    "sourceType": "example",
+    "disposition": "study-card",
+    "canonical": "kidnap"
+  },
+  {
+    "line": 133,
+    "cells": [
+      "1",
+      "Shiver",
+      "Titremek, ürpermek",
+      "Oliver shivered with fear. — Oliver korkudan titredi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "shiver"
+  },
+  {
+    "line": 134,
+    "cells": [
+      "2",
+      "Suffer",
+      "Acı çekmek, ıstırap çekmek",
+      "Oliver suffered a lot during his childhood. — Oliver çocukluğu boyunca çok acı çekti."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "suffer"
+  },
+  {
+    "line": 135,
+    "cells": [
+      "3",
+      "Convet",
+      "Yazım hatası",
+      "Convert, convict veya convent olabileceği değerlendirildi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "unresolved"
+  },
+  {
+    "line": 136,
+    "cells": [
+      "4",
+      "Convey",
+      "İletmek, aktarmak, ifade etmek",
+      "His face conveyed fear. — Yüzü korku ifade ediyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "convey"
+  },
+  {
+    "line": 137,
+    "cells": [
+      "5",
+      "Deeply",
+      "Derin bir şekilde",
+      "Rose had been sleeping deeply... — Rose derin bir şekilde uyuyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "deeply"
+  },
+  {
+    "line": 138,
+    "cells": [
+      "6",
+      "Long-lasting",
+      "Uzun süreli, kalıcı",
+      "Uzun süren bir uykuyu anlatmak için kullanıldı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "long-lasting"
+  },
+  {
+    "line": 139,
+    "cells": [
+      "7",
+      "Clerk",
+      "Memur, kâtip",
+      "The clerk gave Oliver a document. — Kâtip Oliver'a bir belge verdi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "clerk"
+  },
+  {
+    "line": 192,
+    "cells": [
+      "1",
+      "Shot",
+      "Atış, şut, iğne, çekim",
+      "He fired a shot. → Bir el ateş etti."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "shot"
+  },
+  {
+    "line": 193,
+    "cells": [
+      "2",
+      "Permit",
+      "İzin vermek, izin belgesi",
+      "They permitted him to leave. → Gitmesine izin verdiler."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "permit"
+  },
+  {
+    "line": 194,
+    "cells": [
+      "3",
+      "Curtain",
+      "Perde",
+      "She opened the curtains. → Perdeleri açtı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "curtain"
+  },
+  {
+    "line": 195,
+    "cells": [
+      "4",
+      "Creature",
+      "Yaratık, canlı, mahluk",
+      "The poor little creature was crying. → Zavallı küçük çocuk ağlıyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "creature"
+  },
+  {
+    "line": 196,
+    "cells": [
+      "5",
+      "Accompany",
+      "Eşlik etmek, refakat etmek",
+      "She accompanied Oliver to London. → Oliver'a Londra'ya giderken eşlik etti."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "accompany"
+  },
+  {
+    "line": 197,
+    "cells": [
+      "6",
+      "Geese",
+      "Kazlar (goose kelimesinin çoğulu)",
+      "The geese were flying over the village. → Kazlar köyün üzerinden uçuyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "geese"
+  },
+  {
+    "line": 209,
+    "cells": [
+      "Appear",
+      "Ortaya çıkmak, görünmek"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "appear"
+  },
+  {
+    "line": 210,
+    "cells": [
+      "Kind",
+      "İyi kalpli, şefkatli"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "kind"
+  },
+  {
+    "line": 211,
+    "cells": [
+      "Badness",
+      "Kötülük"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "badness"
+  },
+  {
+    "line": 212,
+    "cells": [
+      "Death",
+      "Ölüm"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "death"
+  },
+  {
+    "line": 213,
+    "cells": [
+      "Be found among",
+      "Arasında bulunmak, rastlanmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "be found among"
+  },
+  {
+    "line": 214,
+    "cells": [
+      "The young",
+      "Gençler"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "the young"
+  },
+  {
+    "line": 215,
+    "cells": [
+      "The old",
+      "Yaşlılar"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "the old"
+  },
+  {
+    "line": 216,
+    "cells": [
+      "As much as",
+      "... kadar, aynı ölçüde"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "as much as"
+  },
+  {
+    "line": 246,
+    "cells": [
+      "Collapsed",
+      "Çöktü, yere yığıldı",
+      "He collapsed on the floor. — Yere yığıldı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "collapse"
+  },
+  {
+    "line": 247,
+    "cells": [
+      "Bent",
+      "Eğildi, büktü, eğilmiş",
+      "He bent down to pick up the coin. — Parayı almak için eğildi."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "bend"
+  },
+  {
+    "line": 248,
+    "cells": [
+      "Shut",
+      "Kapatmak, kapatılmış",
+      "He shut the door quietly. — Kapıyı sessizce kapattı."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "shut"
+  },
+  {
+    "line": 249,
+    "cells": [
+      "Cardigan",
+      "Hırka",
+      "She was wearing a red cardigan. — Kırmızı bir hırka giyiyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "cardigan"
+  },
+  {
+    "line": 250,
+    "cells": [
+      "Pale",
+      "Solgun, soluk, açık renkli",
+      "Oliver looked pale and tired. — Oliver solgun ve yorgun görünüyordu."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "pale"
+  },
+  {
+    "line": 290,
+    "cells": [
+      "1",
+      "Aide",
+      "Yardımcı, asistan",
+      "He was the aide of the child..."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "aide"
+  },
+  {
+    "line": 291,
+    "cells": [
+      "2",
+      "Whom",
+      "-dığı kişi, kimi",
+      "The child whom he found in the street"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "whom"
+  },
+  {
+    "line": 292,
+    "cells": [
+      "3",
+      "Afraid of",
+      "-den korkmak",
+      "He was afraid of the child..."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "afraid of"
+  },
+  {
+    "line": 293,
+    "cells": [
+      "4",
+      "Accept",
+      "Kabul etmek",
+      "He looked at Oliver, wanting him to accept the idea."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "accept"
+  },
+  {
+    "line": 294,
+    "cells": [
+      "5",
+      "Except",
+      "Hariç, dışında",
+      "Accept ile farkını sordun."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "except"
+  },
+  {
+    "line": 295,
+    "cells": [
+      "6",
+      "Convince",
+      "İkna etmek",
+      "He convinced Oliver to accept the idea."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "convince"
+  },
+  {
+    "line": 296,
+    "cells": [
+      "7",
+      "As a result",
+      "Sonuç olarak",
+      "As a result, they will all laugh at you."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "as a result"
+  },
+  {
+    "line": 297,
+    "cells": [
+      "8",
+      "Embraced",
+      "Sarıldı, kucakladı",
+      "She embraced Oliver warmly."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "embrace"
+  },
+  {
+    "line": 298,
+    "cells": [
+      "9",
+      "Dragged",
+      "Sürüklendi, zorla çekildi",
+      "He was dragged along a narrow street."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "drag"
+  },
+  {
+    "line": 299,
+    "cells": [
+      "10",
+      "Narrow",
+      "Dar",
+      "Along a narrow street"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "narrow"
+  },
+  {
+    "line": 300,
+    "cells": [
+      "11",
+      "Rang",
+      "Çaldı",
+      "Sikes rang a doorbell."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "ring"
+  },
+  {
+    "line": 301,
+    "cells": [
+      "12",
+      "Conversely",
+      "Tersine, aksine",
+      "Conversely, others prefer small towns."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "conversely"
+  },
+  {
+    "line": 302,
+    "cells": [
+      "13",
+      "Collapsed",
+      "Yere yığıldı, çöktü",
+      "Oliver collapsed on the floor."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "collapse"
+  },
+  {
+    "line": 303,
+    "cells": [
+      "14",
+      "Deserve",
+      "Hak etmek",
+      "Oliver deserves to be happy."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "deserve"
+  },
+  {
+    "line": 311,
+    "cells": [
+      "Relative Clause",
+      "The child whom he found..."
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 312,
+    "cells": [
+      "Want + object + to V1",
+      "Wanting him to accept the idea"
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 313,
+    "cells": [
+      "Convince + object + to V1",
+      "Convince Oliver to accept"
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 314,
+    "cells": [
+      "Passive Voice",
+      "He was dragged..."
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 315,
+    "cells": [
+      "Past Simple (Irregular)",
+      "Sikes rang a doorbell."
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 316,
+    "cells": [
+      "Participial Clause",
+      "He looked at Oliver, wanting..."
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 317,
+    "cells": [
+      "Deserve + to V1",
+      "He deserves to be happy."
+    ],
+    "sourceType": "grammar",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 335,
+    "cells": [
+      "Desire",
+      "Arzu, güçlü istek, arzulamak",
+      "She didn't like his desire to eat."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "desire"
+  },
+  {
+    "line": 336,
+    "cells": [
+      "As if",
+      "Sanki, -mış gibi",
+      "She acts as if she knew everything."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "as if"
+  },
+  {
+    "line": 337,
+    "cells": [
+      "Compelled",
+      "Zorlanmış, mecbur bırakılmış",
+      "Oliver was compelled to work."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "compel"
+  },
+  {
+    "line": 338,
+    "cells": [
+      "Unbearable",
+      "Dayanılmaz, katlanılmaz",
+      "Oliver lived in unbearable conditions."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "unbearable"
+  },
+  {
+    "line": 339,
+    "cells": [
+      "Envy",
+      "Kıskançlık, haset, imrenmek",
+      "Oliver looked at the other children with envy."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "envy"
+  },
+  {
+    "line": 340,
+    "cells": [
+      "Pity",
+      "Acıma, merhamet",
+      "Everybody takes pity on you."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "pity"
+  },
+  {
+    "line": 341,
+    "cells": [
+      "Squeezing",
+      "Sıkmak, bastırmak, sıkıştırmak",
+      "He was squeezing Oliver's arm."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "squeeze"
+  },
+  {
+    "line": 349,
+    "cells": [
+      "She didn't like his desire to eat.",
+      "Onun yemek yeme arzusundan hoşlanmıyordu."
+    ],
+    "sourceType": "sentences",
+    "disposition": "sentence-evidence"
+  },
+  {
+    "line": 350,
+    "cells": [
+      "I hope you don't mind sleeping among the coffins.",
+      "Umarım tabutların arasında uyumaktan rahatsız olmazsın."
+    ],
+    "sourceType": "sentences",
+    "disposition": "sentence-evidence"
+  },
+  {
+    "line": 351,
+    "cells": [
+      "In any case, it doesn't matter if you want to or not.",
+      "Her hâlükârda isteyip istememenin önemi yok."
+    ],
+    "sourceType": "sentences",
+    "disposition": "sentence-evidence"
+  },
+  {
+    "line": 352,
+    "cells": [
+      "That's why everybody takes pity on you.",
+      "İşte bu yüzden herkes sana acıyor."
+    ],
+    "sourceType": "sentences",
+    "disposition": "sentence-evidence"
+  },
+  {
+    "line": 353,
+    "cells": [
+      "Your mum was a prostitute.",
+      "Annen bir fahişeydi."
+    ],
+    "sourceType": "sentences",
+    "disposition": "sentence-evidence"
+  },
+  {
+    "line": 359,
+    "cells": [
+      "Mind + V-ing",
+      "Bir şeyi yapmaktan rahatsız olmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "grammar-note"
+  },
+  {
+    "line": 360,
+    "cells": [
+      "Among",
+      "Arasında"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "among"
+  },
+  {
+    "line": 361,
+    "cells": [
+      "Coffin",
+      "Tabut"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "coffin"
+  },
+  {
+    "line": 362,
+    "cells": [
+      "In any case",
+      "Her hâlükârda"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "in any case"
+  },
+  {
+    "line": 363,
+    "cells": [
+      "It doesn't matter",
+      "Önemi yok, fark etmez"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "it doesn't matter"
+  },
+  {
+    "line": 364,
+    "cells": [
+      "Take pity on",
+      "Birine acımak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "take pity on"
+  },
+  {
+    "line": 365,
+    "cells": [
+      "That's why",
+      "İşte bu yüzden"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "that's why"
+  },
+  {
+    "line": 366,
+    "cells": [
+      "Prostitute",
+      "Fahişe, seks işçisi"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "prostitute"
+  },
+  {
+    "line": 367,
+    "cells": [
+      "Mum",
+      "Anne"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "mum"
+  },
+  {
+    "line": 368,
+    "cells": [
+      "Squeeze into",
+      "Sıkışarak girmek"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "squeeze into"
+  },
+  {
+    "line": 369,
+    "cells": [
+      "Squeeze out",
+      "Sıkarak çıkarmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "squeeze out"
+  },
+  {
+    "line": 388,
+    "cells": [
+      "1",
+      "Die",
+      "Ölmek",
+      "He would die."
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "die"
+  },
+  {
+    "line": 389,
+    "cells": [
+      "2",
+      "Otherwise",
+      "Aksi takdirde, yoksa",
+      "Önceki cümledeki ölüm ihtimaliyle ilişkili"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "otherwise"
+  },
+  {
+    "line": 390,
+    "cells": [
+      "3",
+      "Narrow",
+      "Dar",
+      "Dar sokak veya geçit"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "narrow"
+  },
+  {
+    "line": 391,
+    "cells": [
+      "4",
+      "Silk",
+      "İpek",
+      "İpek mendiller"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "silk"
+  },
+  {
+    "line": 392,
+    "cells": [
+      "5",
+      "Handkerchiefs",
+      "Mendiller",
+      "İpe asılmış ipek mendiller"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "handkerchief"
+  },
+  {
+    "line": 393,
+    "cells": [
+      "6",
+      "String",
+      "İp, sicim",
+      "Mendillerin asıldığı ip"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "string"
+  },
+  {
+    "line": 394,
+    "cells": [
+      "7",
+      "Hang (hung)",
+      "Asmak, asılı durmak",
+      "Handkerchiefs hung on a string"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "hang"
+  },
+  {
+    "line": 395,
+    "cells": [
+      "8",
+      "Examine",
+      "İncelemek, muayene etmek",
+      "Bir nesneyi dikkatlice incelemek"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "examine"
+  },
+  {
+    "line": 420,
+    "cells": [
+      "Would die",
+      "Ölecekti / ölürdü"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "would die"
+  },
+  {
+    "line": 421,
+    "cells": [
+      "Otherwise",
+      "Aksi takdirde"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "otherwise"
+  },
+  {
+    "line": 422,
+    "cells": [
+      "Narrow street",
+      "Dar sokak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "narrow street"
+  },
+  {
+    "line": 423,
+    "cells": [
+      "Silk handkerchiefs",
+      "İpek mendiller"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "silk handkerchiefs"
+  },
+  {
+    "line": 424,
+    "cells": [
+      "On a string",
+      "Bir ipin üzerinde"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "on a string"
+  },
+  {
+    "line": 425,
+    "cells": [
+      "Hang on a string",
+      "Bir ipe asılmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "hang on a string"
+  },
+  {
+    "line": 426,
+    "cells": [
+      "Examine carefully",
+      "Dikkatlice incelemek"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "examine carefully"
+  },
+  {
+    "line": 452,
+    "cells": [
+      "Admit",
+      "Kabul etmek, itiraf etmek, içeri almak",
+      "Mr. Sowerberry'nin Oliver'ın dükkânında çalışmasını kabul etmesi"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "admit"
+  },
+  {
+    "line": 499,
+    "cells": [
+      "Mess tin",
+      "Metal yemek tası",
+      "Yemeklerin konulduğu metal kap"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "mess tin"
+  },
+  {
+    "line": 500,
+    "cells": [
+      "Bowl",
+      "Kase, yemek tası",
+      "Çocukların yemeklerini tamamen bitirmesi"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "bowl"
+  },
+  {
+    "line": 501,
+    "cells": [
+      "Ladle",
+      "Kepçe",
+      "Çocuklara yemek dağıtılması"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "ladle"
+  },
+  {
+    "line": 502,
+    "cells": [
+      "Grasped",
+      "Sıkıca tuttu, kavradı",
+      "Bir nesneyi kavrama veya bir durumu anlama"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "grasp"
+  },
+  {
+    "line": 503,
+    "cells": [
+      "Coffins",
+      "Tabutlar",
+      "Oliver'ın Bay Sowerberry'nin yanında çalışması"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "coffin"
+  },
+  {
+    "line": 504,
+    "cells": [
+      "Cane",
+      "Baston, değnek",
+      "Bir karakterin bastonunu kaldırması"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "cane"
+  },
+  {
+    "line": 505,
+    "cells": [
+      "Panted",
+      "Soluk soluğa kaldı, nefes nefese söyledi",
+      "Bir karakterin duyuruyu nefes nefese yapması"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "pant"
+  },
+  {
+    "line": 506,
+    "cells": [
+      "Chaunt / Chant",
+      "Ezgili, ritmik söylemek",
+      "Cane ile karşılaştırdığın kelime"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "chant"
+  },
+  {
+    "line": 526,
+    "cells": [
+      "Crutch",
+      "Koltuk değneği"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "crutch"
+  },
+  {
+    "line": 527,
+    "cells": [
+      "Walking stick",
+      "Yürüyüş bastonu"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "walking stick"
+  },
+  {
+    "line": 528,
+    "cells": [
+      "Stick",
+      "Sopa, çubuk"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "stick"
+  },
+  {
+    "line": 529,
+    "cells": [
+      "Grasp",
+      "Kavramak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "grasp"
+  },
+  {
+    "line": 530,
+    "cells": [
+      "Grasp an opportunity",
+      "Fırsatı değerlendirmek"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "grasp an opportunity"
+  },
+  {
+    "line": 531,
+    "cells": [
+      "Coffin maker",
+      "Tabut ustası"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "coffin maker"
+  },
+  {
+    "line": 532,
+    "cells": [
+      "Coffin lid",
+      "Tabut kapağı"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "coffin lid"
+  },
+  {
+    "line": 533,
+    "cells": [
+      "Pant for breath",
+      "Nefes nefese kalmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "pant for breath"
+  },
+  {
+    "line": 534,
+    "cells": [
+      "Out of breath",
+      "Nefesi kesilmiş"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "out of breath"
+  },
+  {
+    "line": 535,
+    "cells": [
+      "Make an announcement",
+      "Duyuru yapmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "make an announcement"
+  },
+  {
+    "line": 536,
+    "cells": [
+      "Ladle out",
+      "Kepçeyle dağıtmak"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "ladle out"
+  },
+  {
+    "line": 537,
+    "cells": [
+      "Sugar cane",
+      "Şeker kamışı"
+    ],
+    "sourceType": "vocabulary",
+    "disposition": "study-card",
+    "canonical": "sugar cane"
+  }
+]
