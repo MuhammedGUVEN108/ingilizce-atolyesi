@@ -8,3 +8,6 @@
 
 - Oliver Twist: 70 kelime/38 kalıp, 22 gramer notu, 19 cümle bağlamı; kaynak envanteri ve 13 inceleme başlığı.
 - Kelime defterine kaynak biçimleri/kullanım notları, set altına açılabilir gramer ve okuma notları; sohbet verisi temizleme prosedürü ve üç veri kalitesi testi eklendi.
+
+## 2026-10-29
+- MuhammedGUVEN108/ingilizce-atolyesi deposu oluşturuldu, main dalı yüklendi ve GitHub Actions tabanlı Pages yapılandırıldı. Ham sohbet ve yerel yardımcı dosyalar hariç tutuldu.

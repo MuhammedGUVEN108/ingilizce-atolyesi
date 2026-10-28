@@ -1,4 +1,6 @@
 # Kelime Atölyesi
+
+[Siteyi aç](https://muhammedguven108.github.io/ingilizce-atolyesi/) · [GitHub deposu](https://github.com/MuhammedGUVEN108/ingilizce-atolyesi)
 Telefon ve bilgisayar için Türkçe arayüzlü kişisel İngilizce çalışma sitesi. Derleme ve paket kurulumu gerektirmez.
 
 ## Açma
