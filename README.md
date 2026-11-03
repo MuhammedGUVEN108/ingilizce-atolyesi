@@ -36,12 +36,20 @@ Telaffuz: cihazın speechSynthesis sesleri. İngiliz/Amerikan ve yavaş seçenek
 - .github/workflows/: GitHub Pages dağıtımı
 
 ## Kontrol
+Geliştirici için: Node.js ile önce `npm ci --ignore-scripts` çalıştır. Bu bağımlılıklar siteyi açan kullanıcı için gerekli değildir.
 ```powershell
-py -3 tools/validate_data.py
-& 'C:\Users\Muhammed\AppData\Local\KitapPDF-Araclari\node\node.exe' --test tools/core.test.mjs tools/direct-open.test.mjs tools/oliver-data.test.mjs
+py -3 tools/build_local.py
+npm test
 ```
 
 Diğer yapay zekâlar önce AGENTS.md dosyasını okumalıdır.
 
 ## İlk kişisel veri: Oliver Twist
 70 kelime ve 38 kalıp iki ayrı sette; ayrıca açılabilir 22 gramer notu ve 19 cümle bağlamı bulunur. Temizleme raporu docs/analysis/oliver-twist.md. Ham kaynak data/inbox/ altında korunur.
+
+## Modern çalışma alanı
+2026-11-04: set kütüphanesi, tüm setlerde arama, favori/tekrar koleksiyonları, büyük çalışma kartı ve odak modu eklendi. Testte soru sayısı seçilebilir. Telaffuz ayarları ve kart konumu hatırlanır. Terimler ve okuma notları ayrı sekmelerdedir. Eski favoriler/ilerleme aynı kayıtta korunur.
+
+Kısayollar: Boşluk kartı çevirir; sol/sağ ok kart değiştirir; F favoriyi değiştirir; 1/2, kart çevrildikten sonra tekrar/biliyorum seçer. Escape odak modundan çıkar; / aramayı açar. Yazı alanlarında kart kısayolları işlemez.
+
+Tasarım ve doğrulama rehberi: docs/decisions/002-modern-study-interface.md. Yazı tipi Inter yerel dosyadan yüklenir; lisansı site/fonts/LICENSE-Inter.txt içindedir.

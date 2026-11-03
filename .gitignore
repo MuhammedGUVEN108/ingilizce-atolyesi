@@ -4,3 +4,4 @@ __pycache__/
 *.pyc
 .progress/
 .preview/
+node_modules/

@@ -1,6 +1,8 @@
 # Proje başlangıç talimatı
 Bu dosya tüm yapay zekâlar ve geliştiriciler içindir. Önce README.md, docs/handoff/STATUS.md ve ilgili prosedürü oku.
 - Kullanıcı: Muhammed. Arayüz Türkçe; mobil ve bilgisayar eşit öncelikli.
+- 2026-11-04 tasarım kararı: bu projede modern, Quizlet'e yakın çalışma arayüzü isteniyor; eski fildişi/sarı/serif sistemi geri getirme. Güncel rehber docs/decisions/002-modern-study-interface.md. Yerel Inter fontu, indigo vurgu ve responsive çalışma bileşenleri site/css/app.css içinde.
+- Arayüz çalışma anında bağımlılıksızdır. Linkedom yalnız devDependency; testlerden önce npm ci --ignore-scripts çalıştır. Klasörleri veya localStorage kelime-atolyesi-progress-v1 anahtarını taşımadan önce veri uyumluluğunu koru.
 - Bu klasör proje merkezidir. Kök dizine geçici dosya, sohbet dökümü veya yedek yığma.
 - Onaylı kapsam: kartlar, öğrenme, yazma, dinleme, test, eşleştirme, tekrar, kelime verisi, ilerleme aktarımı.
 - Yayın hedefi GitHub Pages. Sites hosting oluşturma. Anahtar veya gizli bilgi istemci koduna yazma.

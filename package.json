@@ -3,6 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tools/core.test.mjs tools/direct-open.test.mjs tools/oliver-data.test.mjs"
+    "test": "node --test tools/core.test.mjs tools/direct-open.test.mjs tools/oliver-data.test.mjs tools/assets.test.mjs"
+  },
+  "devDependencies": {
+    "linkedom": "^0.18.15"
   }
 }

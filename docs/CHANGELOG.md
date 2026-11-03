@@ -1,5 +1,12 @@
 # Değişiklikler
 
+## 2026-11-04
+- Quizlet tarzına yakın modern indigo/beyaz arayüz; yerel Inter fontu ve SVG ikonları; eski fildişi/sarı tasarımı kaldırıldı.
+- Kütüphane, genel arama, favori/tekrar koleksiyonları, odak modu, kart yönü ve klavye kontrolleri.
+- Yedi mod yeni düzene taşındı. Test soru sayısı, öğrenmede yazılı soru, geri bildirim/sonuç ekranları ve eşleştirme zamanlayıcısı düzenlendi.
+- Ses ayarları ve kart konumu kalıcı; eski ilerleme/favori şeması korundu. Terimler ve okuma notları sekmelere ayrıldı.
+- Arayüz akış testleri gerçek DOM kullanan Linkedom'a taşındı; CI dev bağımlılıklarını kurar. Kullanıcı için Node/npm gerekmiyor.
+
 ## 2026-10-28
 - İlk mobil/masaüstü sürümü, yedi çalışma modu ve örnek kelime seti.
 - Ortak yapay zekâ talimatları, veri şeması, prosedürler ve Pages workflow.
