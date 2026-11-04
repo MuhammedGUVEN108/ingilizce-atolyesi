@@ -10,7 +10,7 @@
   --surface:#fff;
   --surface-soft:#f1f3fa;
   --text:#252a43;
-  --muted:#72788e;
+  --muted:#646d85;
   --border:#e7e9f1;
   --accent:#4255ff;
   --accent-hover:#3344e5;
@@ -2895,4 +2895,39 @@ dialog>.muted {
     transition:none!important;
     scroll-behavior:auto!important
   }
+}
+
+/* Personal browser records */
+.word-performance {
+  display:flex;flex-wrap:wrap;gap:6px 12px;font-size:10px;line-height:1.8;color:var(--muted);margin-top:9px;
+}
+.performance-correct {color:var(--success)}
+.performance-wrong {color:var(--danger)}
+.workspace > .word-performance {justify-content:center;margin-top:12px}
+.personal-summary {display:grid;grid-template-columns:repeat(4,1fr);gap:9px;padding:18px 0;border-block:1px solid var(--border)}
+.personal-summary strong {display:block;font-size:21px;font-weight:650}
+.personal-summary span {display:block;color:var(--muted);font-size:10px;margin-top:5px}
+.storage-state {font-size:11px;color:var(--success);line-height:1.8;margin-top:17px}
+.storage-state.storage-warning {color:var(--danger)}
+.storage-usage {display:flex;justify-content:space-between;gap:12px;align-items:center;font-size:11px;margin-top:15px}
+.storage-usage strong {font-size:12px;white-space:nowrap;font-variant-numeric:tabular-nums}
+.storage-note {font-size:10px;margin-top:8px;line-height:1.8}
+.delete-zone {border-top:1px solid var(--border);margin-top:22px;padding-top:18px}
+.delete-zone .hint {font-size:10px;margin-top:9px}
+.button-danger-outline {border:1px solid var(--danger);color:var(--danger);background:transparent}
+.button-danger-outline:hover {background:var(--danger-soft)}
+.button-danger {background:#b7344e;color:white}
+.button-danger:hover {background:#94253d}
+.delete-actions {display:flex;justify-content:flex-end;gap:10px;flex-wrap:wrap;margin-top:23px}
+.difficulty-tools {margin:0 0 20px;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.difficulty-tools p {max-width:450px;color:var(--muted);font-size:12px;line-height:1.8}
+.difficulty-tools label {color:var(--muted);font-size:11px;display:flex;align-items:center;gap:9px}
+.difficulty-tools select {border:1px solid var(--border);border-radius:9px;background:var(--surface);padding:10px;min-height:44px;max-width:100%;font-size:11px}
+@media(max-width:600px) {
+  .personal-summary {grid-template-columns:repeat(2,1fr);gap:15px 25px}
+  .difficulty-tools {align-items:start;flex-direction:column;gap:13px}
+  .difficulty-tools label {flex-wrap:wrap;max-width:100%}
+  .difficulty-tools select {font-size:14px}
+  .collection-row .word-performance {font-size:9px;gap:4px 8px}
+  .delete-actions {display:grid;grid-template-columns:1fr 1fr}
 }

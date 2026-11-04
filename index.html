@@ -71,6 +71,7 @@
       <button data-view="library"><svg class="icon " aria-hidden="true"><use href="#i-grid"></use></svg><span>Kütüphanem</span></button>
       <button data-view="favorites"><svg class="icon " aria-hidden="true"><use href="#i-star"></use></svg><span>Favorilerim</span><span class="nav-count" id="favorite-count">0</span></button>
       <button data-view="due"><svg class="icon " aria-hidden="true"><use href="#i-repeat"></use></svg><span>Tekrar zamanı</span><span class="nav-count" id="due-count">0</span></button>
+      <button data-view="difficult"><svg class="icon" aria-hidden="true"><use href="#i-test"></use></svg><span>Zorlandıklarım</span><span class="nav-count" id="difficult-count">0</span></button>
     </nav>
     <div class="sidebar-label">KOLEKSİYONLARIN</div>
     <div id="folders" class="folder-nav"></div>
@@ -133,11 +134,21 @@
     <button class="button button-primary full-width" data-close-dialog>Bitti <svg class="icon " aria-hidden="true"><use href="#i-check"></use></svg></button>
   </dialog>
   <dialog id="data-dialog" aria-labelledby="data-title">
-    <div class="dialog-heading"><h2 id="data-title">Çalışmalarını yanında taşı</h2><button class="icon-button" data-close-dialog aria-label="Veriler penceresini kapat"><svg class="icon " aria-hidden="true"><use href="#i-close"></use></svg></button></div>
-    <p class="muted">Favorilerin ve öğrenme ilerlemen bu tarayıcıda saklanır. Başka cihaza geçerken bir dosyayla aktarabilirsin.</p>
+    <div class="dialog-heading"><h2 id="data-title">Verilerim</h2><button class="icon-button" data-close-dialog aria-label="Veriler penceresini kapat"><svg class="icon " aria-hidden="true"><use href="#i-close"></use></svg></button></div>
+    <p class="muted">Favorilerin ve cevapların bu tarayıcıda saklanır; GitHub'a gönderilmez. Aynı tarayıcı profilinde kayıt ortaktır.</p>
+    <div id="personal-summary" class="personal-summary" aria-label="Kişisel kayıt özeti"></div>
+    <p id="storage-state" class="storage-state" role="status"></p>
+    <div class="storage-usage"><span>Kişisel kayıt boyutu</span><strong id="storage-size">Ölçülüyor…</strong></div>
+    <p class="hint storage-note">10 MB üst sınır. Yalnız sayaçlar saklanır; uzun işlem geçmişi tutulmaz. Bu ölçüm site dosyaları, fontlar ve tarayıcının veritabanı ek yükünü içermez.</p>
+    <div class="delete-zone"><button id="delete-data-open" class="button button-danger-outline">Verilerimi sil</button><p class="hint">Bu tarayıcıdaki favorilerini, sayaçlarını ve ayarlarını temizle.</p></div>
     <button id="export" class="transfer-action"><svg class="icon " aria-hidden="true"><use href="#i-download"></use></svg><span><strong>İlerlemeyi dışa aktar</strong><small>Yedek dosyanı bilgisayarına indir.</small></span><svg class="icon " aria-hidden="true"><use href="#i-chevron"></use></svg></button>
     <label class="transfer-action import-action"><svg class="icon " aria-hidden="true"><use href="#i-upload"></use></svg><span><strong>İlerleme dosyası yükle</strong><small>Aynı kelimelerde dosyadaki kayıt kullanılır.</small></span><svg class="icon " aria-hidden="true"><use href="#i-chevron"></use></svg><input id="import" type="file" accept=".json,application/json"></label>
-    <p class="dialog-info"><svg class="icon " aria-hidden="true"><use href="#i-info"></use></svg>Cihazlar arasında otomatik eşitleme henüz yok.</p>
+    <p class="dialog-info"><svg class="icon " aria-hidden="true"><use href="#i-info"></use></svg>Kart değerlendirmeleri ve soru cevapları sayaçlara dahildir. Cihazlar arasında otomatik eşitleme yok; gizli sekme veya tarayıcı temizliği kayıtlarını silebilir.</p>
+  </dialog>
+  <dialog id="delete-dialog" aria-labelledby="delete-title">
+    <div class="dialog-heading"><h2 id="delete-title">Bu tarayıcıdaki kaydın silinsin mi?</h2><button class="icon-button" data-close-dialog aria-label="Silme penceresini kapat"><svg class="icon" aria-hidden="true"><use href="#i-close"></use></svg></button></div>
+    <p class="muted">Favorilerin, doğru/yanlış sayaçların, ilerlemen ve ayarların silinecek. Çalışma setleri duracak. İndirdiğin yedek dosyalar ve diğer tarayıcılardaki kayıtlar etkilenmez.</p>
+    <div class="delete-actions"><button id="cancel-delete" class="button button-outline" data-close-dialog>Vazgeç</button><button id="confirm-delete" class="button button-danger">Verilerimi sil</button></div>
   </dialog>
   <dialog id="help-dialog" aria-labelledby="help-title">
     <div class="dialog-heading"><h2 id="help-title">Biraz daha hızlı çalış</h2><button class="icon-button" data-close-dialog aria-label="Kısayolları kapat"><svg class="icon " aria-hidden="true"><use href="#i-close"></use></svg></button></div>

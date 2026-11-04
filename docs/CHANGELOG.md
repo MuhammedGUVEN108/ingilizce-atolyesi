@@ -1,6 +1,9 @@
 # Değişiklikler
 
 ## 2026-11-04
+- Kişisel IndexedDB kaydı, eski kayıt taşıma, kelime başına doğru/yanlış sayaçları ve Zorlandıklarım çoktan seçmeli testi.
+- Verilerim alan ölçümü, 10 MB sınırı ve onaylı kişisel veri silme. 26 test ve iki boyutta temiz Edge görsel kontrolü.
+
 - Kullanıcı düzeltmesi: Test modu ve yanlışları tekrar turu yalnız çoktan seçmeli; yazılı soru karışımı kaldırıldı. Açıklama ve ortak AI talimatları güncellendi; 17 test geçti.
 - Quizlet tarzına yakın modern indigo/beyaz arayüz; yerel Inter fontu ve SVG ikonları; eski fildişi/sarı tasarımı kaldırıldı.
 - Kütüphane, genel arama, favori/tekrar koleksiyonları, odak modu, kart yönü ve klavye kontrolleri.

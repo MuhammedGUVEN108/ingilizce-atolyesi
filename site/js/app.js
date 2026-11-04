@@ -1,9 +1,10 @@
-import{shuffle,checkAnswer,schedule,validateProgress,normalize}from './core.js';
+import{shuffle,checkAnswer,schedule,validateProgress,normalize,getWordStats,difficultyScore}from './core.js';
+import{createProgressStore,MAX_PERSONAL_BYTES,PROGRESS_KEY,PREFERENCE_KEY,THEME_KEY,storagePayloadBytes}from './storage.js';
 
 // Runtime stays dependency-free. build_local.py produces classic scripts for file://.
 const $ = selector => document.querySelector(selector);
-const KEY = 'kelime-atolyesi-progress-v1';
-const PREF_KEY = 'ka-preferences-v2';
+const KEY = PROGRESS_KEY;
+const PREF_KEY = PREFERENCE_KEY;
 const defaults = {accent:'en-GB',slow:false,autoAudio:false,reverse:false,positions:{},lastSet:''};
 let progress = {version:1,words:{}};
 let preferences = {...defaults};
@@ -11,6 +12,7 @@ let sets = [], current = null, page = 'set', mode = 'cards', deck = [];
 let index = 0, flipped = false, cardResults = new Map(), session = null, match = null;
 let noticeTimer, matchTimer, listLimit = 12, activeTab = 'terms', menuOpen = false;
 let restoreFocus = null;
+let busyCount=1, dataEpoch=0, storageFailure='', difficultFilter='all';
 
 const esc = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const icon = name => '<svg class="icon" aria-hidden="true"><use href="#i-'+name+'"></use></svg>';
@@ -36,21 +38,35 @@ function notify(message) {
   noticeTimer = setTimeout(() => { $('#status').textContent = ''; }, 4500);
 }
 try {
-  const raw = localStorage.getItem(KEY);
-  if (raw) progress = validateProgress(JSON.parse(raw));
-} catch { notify('Eski kayıt okunamadı. Bir yedeğin varsa Verilerim bölümünden yükleyebilirsin.'); }
-try {
   const saved = JSON.parse(localStorage.getItem(PREF_KEY) || '{}');
   preferences = {...defaults,...saved,positions:saved.positions && typeof saved.positions === 'object' ? saved.positions : {}};
   if (!['en-GB','en-US'].includes(preferences.accent)) preferences.accent = 'en-GB';
   if (localStorage.getItem('ka-theme') === 'dark') document.body.classList.add('dark');
 } catch { preferences = {...defaults,positions:{}}; }
-function save() {
-  try { localStorage.setItem(KEY,JSON.stringify(progress)); }
-  catch { notify('Tarayıcıya kayıt yapılamadı. Verilerim bölümünden ilerlemeni dışa aktar.'); }
+let browserDatabase, browserLocalStorage;
+try {browserDatabase=window.indexedDB;} catch {}
+try {browserLocalStorage=localStorage;} catch {}
+const personalStore=createProgressStore({indexedDB:browserDatabase,localStorage:browserLocalStorage,onWarning:message=>{storageFailure=message;notify(message);}});
+let broadcast;
+try {if(window.BroadcastChannel)broadcast=new window.BroadcastChannel('kelime-atolyesi-personal');} catch {}
+function updateBusy() {$('#main').setAttribute('aria-busy',String(busyCount>0));}
+updateBusy();
+async function mutateProgress(updater) {
+  busyCount++;updateBusy();
+  try {
+    progress=await personalStore.update(updater);storageFailure='';
+    broadcast?.postMessage({type:'updated'});return true;
+  } catch(error) {
+    storageFailure=error.code==='APP_LIMIT'?error.message:'Kayıt yazılamadı. Mevcut kaydın korundu; tarayıcı alanını kontrol et veya yedeğini indir.';
+    notify(storageFailure);return false;
+  } finally {busyCount--;updateBusy();renderDataSummary();}
 }
 function savePreferences() {
-  try { localStorage.setItem(PREF_KEY,JSON.stringify(preferences)); } catch {}
+  try {
+    const raw=JSON.stringify(preferences), old=localStorage.getItem(PREF_KEY);
+    if(personalStore.usageBytes-(old?storagePayloadBytes(PREF_KEY+old):0)+storagePayloadBytes(PREF_KEY+raw)>MAX_PERSONAL_BYTES)throw Error('Ayarlar 10 MB kayıt sınırını aşıyor.');
+    localStorage.setItem(PREF_KEY,raw);
+  } catch(error) {notify(error.message || 'Ayarlar kaydedilemedi.');}
 }
 function cancelSpeech() { if ('speechSynthesis' in window) window.speechSynthesis.cancel(); }
 function speak(text,lang) {
@@ -67,18 +83,17 @@ function speak(text,lang) {
   utterance.onerror = e => { if (!['canceled','interrupted'].includes(e.error)) notify('Ses oynatılamadı. Cihazındaki İngilizce sesleri kontrol edebilirsin.'); };
   window.speechSynthesis.speak(utterance);
 }
-function record(w,correct) {
-  progress.words[w.id] = schedule(state(w),correct);
-  save();
+async function record(w,correct) {
+  const saved=await mutateProgress(old=>({version:1,words:{...old.words,[w.id]:schedule(old.words[w.id] || {},correct)}}));
   renderSidebar();
   renderAside();
   renderWords();
+  return saved;
 }
-function toggleStar(id) {
+async function toggleStar(id) {
   const w = getWord(id);
   if (!w) return;
-  progress.words[id] = {...state(w),star:!state(w).star};
-  save();
+  await mutateProgress(old=>({version:1,words:{...old.words,[id]:{...old.words[id],star:!old.words[id]?.star}}}));
   renderSidebar();
   if (page === 'set') {
     renderAside(); renderWords();
@@ -88,7 +103,7 @@ function toggleStar(id) {
       button.setAttribute('aria-pressed',String(!!state(w).star));
       button.setAttribute('aria-label',state(w).star ? 'Favorilerden çıkar' : 'Favorilere ekle');
     }
-  } else if (page === 'favorites') renderCollection('favorites');
+  } else if (page === 'favorites' || page === 'difficult') renderCollection(page);
 }
 function wordMeta(w) {
   return [w.ipa,typeLabels[w.partOfSpeech] || w.partOfSpeech,w.level && w.level !== 'unknown' ? w.level : ''].filter(Boolean).join(' · ');
@@ -103,6 +118,7 @@ function renderSidebar() {
   const all = allWords();
   $('#favorite-count').textContent = all.filter(w => state(w).star).length;
   $('#due-count').textContent = all.filter(due).length;
+  $('#difficult-count').textContent = all.filter(w=>getWordStats(state(w)).wrong>0).length;
   $('#main-nav').querySelectorAll('[data-view]').forEach(button => {
     const active = button.dataset.view === page;
     button.classList.toggle('active',active);
@@ -145,20 +161,40 @@ function renderLibrary() {
       return '<button class="set-tile" data-open-set="'+esc(s.id)+'"><span class="set-tile-icon">'+icon(i === 1 ? 'note' : 'book')+'</span><h3>'+esc(s.title)+'</h3><span class="pill">'+s.words.length+' terim · İngilizce → Türkçe</span><div class="set-tile-foot"><span>'+stat.known+' / '+s.words.length+' öğrenildi</span>'+icon('arrow')+'</div><div class="progress-track"><span style="width:'+stat.percent+'%"></span></div></button>';
     }).join('')+'</section>';
 }
+function difficultWords() {
+  return allWords().filter(w=>{
+    const stats=getWordStats(state(w));
+    return stats.wrong>0 && (difficultFilter==='repeated'?stats.wrong>=2:difficultFilter==='last-wrong'?state(w).lastResult===false:true);
+  }).sort((a,b)=>difficultyScore(state(b))-difficultyScore(state(a)) || getWordStats(state(b)).wrong-getWordStats(state(a)).wrong || a.term.localeCompare(b.term));
+}
+function performanceLine(w) {
+  const stats=getWordStats(state(w));
+  if(!stats.attempts)return '<p class="word-performance muted">Henüz değerlendirilmedi</p>';
+  return '<div class="word-performance"><span class="performance-correct">'+stats.correct+' doğru</span><span class="performance-wrong">'+stats.wrong+' yanlış</span><span>'+stats.attempts+' deneme</span></div>';
+}
 function renderCollection(type) {
   showPage(type);
-  const favorite = type === 'favorites';
-  const words = allWords().filter(favorite ? w => state(w).star : due);
-  const title = favorite ? 'Favorilerim' : 'Tekrar zamanı';
-  $('#library-view').innerHTML = '<section class="library-header"><div class="eyebrow">'+(favorite ? 'YENİDEN BAKMAK İSTEDİKLERİN' : 'HATIRLAMAYI KALICI HALE GETİR')+'</div><h1>'+title+'</h1><p>'+words.length+' terim · tüm çalışma setlerinden</p></section>'+
-    (words.length ? '<div class="collection-start"><p>'+(favorite ? 'Yıldızladığın kelimeler, tek bir yerde.' : 'Yeni terimler ve tekrar zamanı gelenler burada.')+'</p><button class="button button-primary" data-action="study-collection" data-kind="'+type+'">'+icon(favorite ? 'cards' : 'repeat')+' '+(favorite ? 'Favorileri çalış' : 'Tekrara başla')+'</button></div><div class="collection-list">'+words.map(w => '<article class="collection-row"><div><strong>'+esc(w.term)+'</strong><small>'+esc(owner(w.id)?.title || '')+'</small></div><span class="meaning">'+esc(w.meaning)+'</span><button class="icon-button" data-speak="'+esc(w.id)+'" aria-label="'+esc(w.term)+' telaffuzunu dinle">'+icon('sound')+'</button>'+starredButton(w)+'</article>').join('')+'</div>' : empty(favorite ? 'Henüz favori kelimen yok' : 'Şimdilik tüm tekrarlar tamam','Bir sete dönerek çalışmaya devam edebilirsin.','<button class="button button-primary" data-view="library">Kütüphaneme dön '+icon('arrow')+'</button>'));
+  const favorite=type==='favorites', difficult=type==='difficult';
+  const words=difficult?difficultWords():allWords().filter(favorite?w=>state(w).star:due);
+  const title=difficult?'Zorlandıklarım':favorite?'Favorilerim':'Tekrar zamanı';
+  $('#library-view').innerHTML='<section class="library-header"><h1>'+title+'</h1><p>'+words.length+' terim · bu tarayıcıdaki kaydından</p></section>'+
+    (difficult?'<div class="difficulty-tools"><p>Yanlış sayısı, hata oranı ve art arda yanlışlarına göre sıralanır. Yeni doğruların test önceliğini azaltır.</p><label for="difficulty-filter">Göster <select id="difficulty-filter"><option value="all">Yanlış yaptığım tüm kelimeler</option><option value="repeated">En az 2 kez yanlış yaptıklarım</option><option value="last-wrong">Son cevabım yanlış olanlar</option></select></label></div>':'')+
+    (words.length?'<div class="collection-start"><p>'+(difficult?'Bu kelimelerden sana özel, çoktan seçmeli bir test hazır.':favorite?'Yıldızladığın kelimeler, tek bir yerde.':'Yeni terimler ve tekrar zamanı gelenler burada.')+'</p><button class="button button-primary" data-action="study-collection" data-kind="'+type+'">'+icon(difficult?'test':favorite?'cards':'repeat')+' '+(difficult?'Zorlandıklarımdan test yap':favorite?'Favorileri çalış':'Tekrara başla')+'</button></div><div class="collection-list">'+words.map(w=>'<article class="collection-row"><div><strong>'+esc(w.term)+'</strong><small>'+esc(owner(w.id)?.title || '')+'</small>'+performanceLine(w)+'</div><span class="meaning">'+esc(w.meaning)+'</span><button class="icon-button" data-speak="'+esc(w.id)+'" aria-label="'+esc(w.term)+' telaffuzunu dinle">'+icon('sound')+'</button>'+starredButton(w)+'</article>').join('')+'</div>':
+      empty(difficult?'Bu filtrede yanlış kaydın yok':favorite?'Henüz favori kelimen yok':'Şimdilik tüm tekrarlar tamam',difficult?'Çalıştıkça yanlışların burada görünecek. İstersen filtreyi de değiştirebilirsin.':'Bir sete dönerek çalışmaya devam edebilirsin.','<button class="button button-primary" data-view="library">Kütüphaneme dön '+icon('arrow')+'</button>'));
+  if(difficult) {
+    $('#difficulty-filter').value=difficultFilter;
+    $('#difficulty-filter').onchange=e=>{difficultFilter=e.target.value;renderCollection('difficult');};
+  }
 }
 function startCollection(type) {
-  const words = allWords().filter(type === 'favorites' ? w => state(w).star : due);
-  if (!words.length) return renderCollection(type);
-  current = {id:'collection-'+type,title:type === 'favorites' ? 'Favorilerim' : 'Tekrar zamanı',folder:'Koleksiyon',words,studyNotes:[],description:'Tüm setlerindeki '+(type === 'favorites' ? 'favori terimlerin.' : 'yeni ve tekrar zamanı gelen terimlerin.')};
-  openCurrent(type === 'due' ? 'review' : 'cards',false);
+  const difficult=type==='difficult';
+  const words=difficult?difficultWords():allWords().filter(type==='favorites'?w=>state(w).star:due);
+  if(!words.length)return renderCollection(type);
+  current={id:'collection-'+type,title:difficult?'Zorlandıklarım':type==='favorites'?'Favorilerim':'Tekrar zamanı',folder:'Koleksiyon',words,studyNotes:[],
+    description:difficult?'Yanlış sayısı ve hata oranına göre seçilen kişisel çalışma testi. Yalnız çoktan seçmeli sorular içerir.':'Tüm setlerindeki '+(type==='favorites'?'favori terimlerin.':'yeni ve tekrar zamanı gelen terimlerin.')};
+  openCurrent(difficult?'test':type==='due'?'review':'cards',false);
 }
+
 function selectSet(id,wordId) {
   const next = sets.find(s => s.id === id);
   if (!next) return;
@@ -238,7 +274,7 @@ function renderCard() {
     (!flipped ? '<span class="term-tag">'+esc(typeLabels[w.partOfSpeech] || w.partOfSpeech)+'</span>' : (w.ipa ? '<span class="pronunciation">'+esc(w.ipa)+'</span>' : '')+(w.examples[0] ? '<span class="card-example" lang="en">'+esc(w.examples[0].en)+'</span><span class="card-translation">'+esc(w.examples[0].tr)+'</span>' : ''))+'</button>'+
     '<div class="flip-caption">'+icon('flip')+' '+(flipped ? 'Diğer yüzü görmek için dokun' : reverse ? 'İngilizcesini görmek için karta dokun' : 'Anlamını görmek için karta dokun')+'</div><div class="card-progress"><span style="width:'+Math.round((index+1)/deck.length*100)+'%"></span></div></div>'+
     '<div class="card-controls"><div class="card-tools"><button class="icon-button" data-action="shuffle" aria-label="Kartları karıştır" title="Karıştır">'+icon('shuffle')+'</button></div><div class="card-navigation"><button class="icon-button" id="prev" data-action="previous" aria-label="Önceki kart" '+(index === 0 ? 'disabled' : '')+'>'+icon('left')+'</button><span class="card-counter">'+(index+1)+' <span>/ '+deck.length+'</span></span><button class="icon-button" id="next" data-action="next" aria-label="Sonraki kart" '+(index === deck.length-1 ? 'disabled' : '')+'>'+icon('chevron')+'</button></div><div class="card-tools"><button class="icon-button" data-action="reverse" aria-label="Kart dil yönünü değiştir" title="Dil yönünü değiştir">'+icon('swap')+'</button></div></div>'+
-    '<div class="grading"><button id="again" class="grade-button grade-again" data-action="grade-again" '+(!flipped || answered ? 'disabled' : '')+'>'+icon('repeat')+' '+(answered ? 'Bu turda kaydedildi' : 'Tekrar et')+'</button><button id="known" class="grade-button grade-known" data-action="grade-known" '+(!flipped || answered ? 'disabled' : '')+'>'+icon('check')+' Biliyorum</button></div>';
+    '<div class="grading"><button id="again" class="grade-button grade-again" data-action="grade-again" '+(!flipped || answered ? 'disabled' : '')+'>'+icon('repeat')+' '+(answered ? 'Bu turda kaydedildi' : 'Tekrar et')+'</button><button id="known" class="grade-button grade-known" data-action="grade-known" '+(!flipped || answered ? 'disabled' : '')+'>'+icon('check')+' Biliyorum</button></div>'+performanceLine(w);
 }
 function moveCard(delta) {
   const next = index + delta;
@@ -246,11 +282,13 @@ function moveCard(delta) {
   index = next; flipped = false; renderCard(); savePosition();
   if (preferences.autoAudio) speak(deck[index].term);
 }
-function gradeCard(correct) {
+async function gradeCard(correct) {
   if (mode !== 'cards' || !flipped || !deck[index]) return;
   const w = deck[index];
   if (cardResults.has(w.id)) return;
-  cardResults.set(w.id,correct); record(w,correct);
+  const epoch=dataEpoch;
+  cardResults.set(w.id,correct); await record(w,correct);
+  if(epoch!==dataEpoch)return;
   if (index < deck.length-1) moveCard(1);
   else {
     session = {items:deck.filter(item => cardResults.has(item.id)),correct:[...cardResults.values()].filter(Boolean).length,wrong:deck.filter(item => cardResults.get(item.id) === false),kind:'cards'};
@@ -264,33 +302,44 @@ function renderTestSetup() {
 }
 function beginQuiz(items) {
   const count = mode === 'test' ? Number($('#test-count')?.value || 10) : deck.length;
-  session = {items:shuffle(items || deck).slice(0,items ? items.length : count),pos:0,correct:0,wrong:[],answered:false,kind:'quiz'};
+  const selected=items || (current.id==='collection-difficult'?deck.slice(0,count):deck);
+  session = {items:shuffle(selected).slice(0,items ? items.length : count),pos:0,correct:0,wrong:[],answered:false,kind:'quiz'};
   renderQuestion();
+}
+function answerChoices(w) {
+  const candidates=new Map();
+  for(const candidate of [...(owner(w.id)?.words || current.words),...allWords()]) {
+    const key=normalize(candidate.term);
+    if(key!==normalize(w.term) && !candidates.has(key))candidates.set(key,candidate);
+  }
+  return shuffle([w,...shuffle([...candidates.values()]).slice(0,3)]);
 }
 function renderQuestion() {
   if (session.pos >= session.items.length) { renderResult(); return; }
   const w = session.items[session.pos];
   session.answered = false;
   session.type = mode === 'listen' ? 'listen' : mode === 'write' || mode === 'review' ? 'write' : mode === 'test' ? 'choice' : state(w).streak >= 2 ? 'write' : 'choice';
-  const choices = session.type === 'choice' ? shuffle([w,...shuffle(current.words.filter(x => x.id !== w.id && x.term !== w.term)).slice(0,3)]) : [];
+  const choices = session.type === 'choice' ? answerChoices(w) : [];
   session.choices = choices;
   $('#workspace').innerHTML = '<div class="question-card"><div class="question-meta"><span>'+ (session.pos+1)+' / '+session.items.length+' soru</span><strong>'+session.correct+' doğru</strong></div><p class="question-label">'+(session.type === 'listen' ? 'DİNLE VE İNGİLİZCESİNİ YAZ' : 'İNGİLİZCE KARŞILIĞINI '+(session.type === 'choice' ? 'SEÇ' : 'YAZ'))+'</p><div class="question">'+(session.type === 'listen' ? '<button class="listen-button" data-speak="'+esc(w.id)+'">'+icon('sound')+' Kelimeyi dinle</button>' : esc(w.meaning))+'</div>'+
     (session.type === 'choice' ? '<div class="options">'+choices.map((choice,i) => '<button class="answer-option" data-answer="'+i+'"><span class="option-letter">'+String.fromCharCode(65+i)+'</span><span>'+esc(choice.term)+'</span></button>').join('')+'</div>' :
     '<form class="answer-form" id="answer-form"><input id="answer" type="text" autocomplete="off" autocapitalize="none" spellcheck="false" aria-label="İngilizce cevabın" placeholder="İngilizcesini yaz…"><button class="button button-primary" type="submit">Kontrol et</button></form>')+
     '<div id="feedback" class="answer-feedback" role="status" hidden></div><div class="question-bottom"><button class="text-button" id="skip-question" data-action="skip">Bilmiyorum</button><button id="continue" class="button button-primary" data-action="continue" hidden>Devam '+icon('arrow')+'</button></div></div><div class="progress-track quiz-progress"><span style="width:'+Math.round(session.pos/session.items.length*100)+'%"></span></div>';
   const form = $('#answer-form');
-  if (form) form.onsubmit = event => {
+  if (form) form.onsubmit = async event => {
     event.preventDefault();
     if (!$('#answer').value.trim()) return;
-    answerQuiz(checkAnswer(w,$('#answer').value));
+    await answerQuiz(checkAnswer(w,$('#answer').value));
   };
 }
-function answerQuiz(correct,selectedIndex) {
+async function answerQuiz(correct,selectedIndex) {
   if (!session || session.answered || session.pos >= session.items.length) return;
   session.answered = true;
   const w = session.items[session.pos];
   if (correct) session.correct++; else session.wrong.push(w);
-  record(w,correct);
+  const epoch=dataEpoch;
+  await record(w,correct);
+  if(epoch!==dataEpoch)return;
   $('#workspace').querySelectorAll('[data-answer]').forEach(button => {
     const candidate = session.choices[Number(button.dataset.answer)];
     button.disabled = true;
@@ -358,7 +407,7 @@ function renderWords() {
   const q = searchText($('#word-search').value);
   const words = current.words.filter(w => (!$('#only-stars').checked || state(w).star) && (!q || searchText(w.term+' '+w.meaning+' '+(w.sourceForms || []).join(' ')).includes(q)));
   $('#term-count').textContent = current.words.length;
-  $('#words').innerHTML = words.length ? words.slice(0,listLimit).map((w,i) => '<article class="word-row"><span class="word-number">'+String(i+1).padStart(2,'0')+'</span><div class="word-term"><strong lang="en">'+esc(w.term)+'</strong><small>'+esc(wordMeta(w))+'</small></div><div class="word-meaning">'+esc(w.meaning)+(w.examples[0] ? '<p class="word-example" lang="en">'+esc(w.examples[0].en)+'</p>' : '')+((w.notes || w.sourceForms?.length) ? '<details class="word-notes"><summary>Kullanım notu</summary>'+(w.sourceForms?.length ? '<p>Okurken karşılaştığın biçim: '+esc(w.sourceForms.join(', '))+'</p>' : '')+(w.notes ? '<p>'+esc(w.notes)+'</p>' : '')+'<p>Örnek cümle çalışma amacıyla oluşturuldu; kitap alıntısı olarak doğrulanmadı.</p></details>' : '')+'</div><div class="word-row-actions">'+starredButton(w)+'<button class="icon-button" data-speak="'+esc(w.id)+'" aria-label="'+esc(w.term)+' telaffuzunu dinle">'+icon('sound')+'</button></div></article>').join('') : empty('Eşleşen terim yok','Aramanı değiştirebilir veya favori filtresini kaldırabilirsin.');
+  $('#words').innerHTML = words.length ? words.slice(0,listLimit).map((w,i) => '<article class="word-row"><span class="word-number">'+String(i+1).padStart(2,'0')+'</span><div class="word-term"><strong lang="en">'+esc(w.term)+'</strong><small>'+esc(wordMeta(w))+'</small></div><div class="word-meaning">'+esc(w.meaning)+(w.examples[0] ? '<p class="word-example" lang="en">'+esc(w.examples[0].en)+'</p>' : '')+performanceLine(w)+((w.notes || w.sourceForms?.length) ? '<details class="word-notes"><summary>Kullanım notu</summary>'+(w.sourceForms?.length ? '<p>Okurken karşılaştığın biçim: '+esc(w.sourceForms.join(', '))+'</p>' : '')+(w.notes ? '<p>'+esc(w.notes)+'</p>' : '')+'<p>Örnek cümle çalışma amacıyla oluşturuldu; kitap alıntısı olarak doğrulanmadı.</p></details>' : '')+'</div><div class="word-row-actions">'+starredButton(w)+'<button class="icon-button" data-speak="'+esc(w.id)+'" aria-label="'+esc(w.term)+' telaffuzunu dinle">'+icon('sound')+'</button></div></article>').join('') : empty('Eşleşen terim yok','Aramanı değiştirebilir veya favori filtresini kaldırabilirsin.');
   $('#more-words').hidden = words.length <= listLimit;
 }
 function renderStudyNotes() {
@@ -401,6 +450,62 @@ function renderSearch() {
   target.hidden = false;
 }
 
+function renderDataSummary() {
+  const values=Object.values(progress.words), totals=values.reduce((sum,value)=>{
+    const stat=getWordStats(value);sum.correct+=stat.correct;sum.wrong+=stat.wrong;sum.attempts+=stat.attempts;return sum;
+  },{correct:0,wrong:0,attempts:0});
+  $('#personal-summary').innerHTML=[[values.filter(v=>v.star).length,'Favori'],[totals.attempts,'Değerlendirme'],[totals.correct,'Doğru'],[totals.wrong,'Yanlış']].map(([count,label])=>'<div><strong>'+count.toLocaleString('tr-TR')+'</strong><span>'+label+'</span></div>').join('');
+  const bytes=personalStore.usageBytes;
+  const value=bytes<1024*1024?(bytes/1024).toLocaleString('tr-TR',{maximumFractionDigits:1})+' KB':(bytes/1024/1024).toLocaleString('tr-TR',{maximumFractionDigits:2})+' MB';
+  $('#storage-size').textContent=value+' / 10 MB';
+  $('#storage-state').textContent=storageFailure || (personalStore.mode==='memory'?'Kalıcı kayıt kullanılamıyor; bu oturumun verilerini dışa aktar.':'Kişisel kaydın yalnız bu tarayıcıda saklanıyor.');
+  $('#storage-state').classList.toggle('storage-warning',!!storageFailure || personalStore.mode==='memory');
+}
+function resetLocalView() {
+  progress={version:1,words:{}};
+  preferences={...defaults,positions:{}};
+  current=null;deck=[];session=null;match=null;cardResults=new Map();index=0;flipped=false;difficultFilter='all';
+  clearTimer();cancelSpeech();storageFailure='';
+  document.body.classList.remove('dark');
+  $('#accent').value=preferences.accent;$('#slow').checked=false;$('#auto-audio').checked=false;
+  $('#global-search').value='';$('#workspace').innerHTML='';$('#words').innerHTML='';
+  updateTheme();renderLibrary();renderDataSummary();
+}
+async function deletePersonalData() {
+  if(busyCount>0)return;
+  dataEpoch++;busyCount++;updateBusy();
+  try {
+    await personalStore.clear();
+    resetLocalView();
+    for(const dialog of document.querySelectorAll('dialog[open]'))closeDialog(dialog);
+    $('#data-open').focus({preventScroll:true});
+    broadcast?.postMessage({type:'cleared'});
+    notify('Bu tarayıcıdaki favorilerin, sayaçların ve ayarların silindi.');
+  } catch {
+    storageFailure='Bazı kayıtlar silinemedi. Tarayıcının site verileri ayarından bu siteyi temizleyebilirsin.';
+    notify(storageFailure);renderDataSummary();
+  } finally {busyCount--;updateBusy();}
+}
+async function refreshFromAnotherTab(type) {
+  if(type==='cleared')dataEpoch++;
+  busyCount++;updateBusy();
+  try {
+    progress=await personalStore.read();
+    if(type==='cleared')resetLocalView();
+    else if(page==='set'){renderSidebar();renderAside();renderWords();renderDataSummary();}
+    else if(page==='library'){renderLibrary();renderDataSummary();}
+    else {renderCollection(page);renderDataSummary();}
+  } catch {notify('Diğer sekmedeki kayıt okunamadı. Sayfayı yenileyebilirsin.');}
+  finally {busyCount--;updateBusy();}
+}
+if(broadcast)broadcast.onmessage=event=>{if(['updated','cleared'].includes(event.data?.type))refreshFromAnotherTab(event.data.type);};
+window.addEventListener('storage',event=>{
+  if(personalStore.mode==='localStorage' && event.key===KEY)refreshFromAnotherTab(event.newValue===null?'cleared':'updated');
+});
+document.addEventListener('click',event=>{
+  if(busyCount>0){event.preventDefault();event.stopImmediatePropagation();}
+},true);
+
 // Static controls and dynamic controls share one event delegation path.
 document.addEventListener('click',event => {
   const button = event.target.closest('button,[data-close-dialog]');
@@ -439,7 +544,9 @@ $('#brand-home').onclick = event => {event.preventDefault(); renderLibrary();};
 $('#back-library').onclick = renderLibrary;
 $('#focus').onclick = () => setFocus(!document.body.classList.contains('focus-mode'));
 $('#settings-open').onclick = event => openDialog('settings-dialog',event.currentTarget);
-$('#data-open').onclick = event => openDialog('data-dialog',event.currentTarget);
+$('#data-open').onclick = event => {renderDataSummary();openDialog('data-dialog',event.currentTarget);};
+$('#delete-data-open').onclick = event => openDialog('delete-dialog',event.currentTarget);
+$('#confirm-delete').onclick = deletePersonalData;
 $('#help-open').onclick = event => openDialog('help-dialog',event.currentTarget);
 $('#menu-toggle').onclick = () => {
   menuOpen = !menuOpen;
@@ -487,11 +594,14 @@ $('#export').onclick = () => {
   notify('İlerleme dosyan indirildi.');
 };
 $('#import').onchange = async event => {
+  const epoch=dataEpoch;
   try {
     const file = event.target.files[0]; if (!file) return;
-    if (file.size > 5000000) throw Error('Dosya çok büyük');
+    if (file.size > MAX_PERSONAL_BYTES) throw Error('Dosya 10 MB sınırını aşıyor.');
     const incoming = validateProgress(JSON.parse(await file.text()));
-    progress = {version:1,words:{...progress.words,...incoming.words}}; save();
+    if(epoch!==dataEpoch)return;
+    const saved=await mutateProgress(old=>({version:1,words:{...old.words,...incoming.words}}));
+    if(!saved || epoch!==dataEpoch)return;
     if (page === 'set') {renderAside(); renderSidebar(); renderWords(); startMode(mode);}
     else if (page === 'library') renderLibrary(); else renderCollection(page);
     notify('İlerleme yüklendi. Aynı terimlerde dosyadaki kayıt kullanıldı.');
@@ -499,6 +609,7 @@ $('#import').onchange = async event => {
   finally {event.target.value = '';}
 };
 document.addEventListener('keydown',event => {
+  if(busyCount>0)return;
   if (event.key === 'Escape') {
     closeSearch();
     if (menuOpen) {closeMenu(); $('#menu-toggle').focus();}
@@ -522,13 +633,18 @@ document.addEventListener('keydown',event => {
   else if (event.key === '1') gradeCard(false);
   else if (event.key === '2') gradeCard(true);
 });
-try {
-  sets = window.KA_SETS;
-  if (!Array.isArray(sets)) throw Error('Kelime verisi bulunamadı');
-  updateTheme(); renderSidebar();
-  if (sets.length) selectSet(sets.find(s => s.id === preferences.lastSet)?.id || sets[0].id);
-  else renderLibrary();
-} catch (error) {
-  $('#workspace').innerHTML = empty('Kelimeler yüklenemedi','index.html ile birlikte site ve data klasörlerinin de bulunduğundan emin ol.');
-  notify(error.message);
+async function initializeApp() {
+  try {
+    progress=await personalStore.ready;
+    sets=window.KA_SETS;
+    if(!Array.isArray(sets))throw Error('Kelime verisi bulunamadı');
+    updateTheme();renderSidebar();renderDataSummary();
+    if(sets.length)selectSet(sets.find(s=>s.id===preferences.lastSet)?.id || sets[0].id);
+    else renderLibrary();
+  } catch(error) {
+    $('#workspace').innerHTML=empty('Kelimeler yüklenemedi','index.html ile birlikte site ve data klasörlerinin de bulunduğundan emin ol.');
+    notify(error.message);
+  } finally {busyCount--;updateBusy();}
 }
+// Readiness hook for local integration tests; contains no personal data.
+window.KA_READY=initializeApp();

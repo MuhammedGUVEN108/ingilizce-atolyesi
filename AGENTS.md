@@ -13,6 +13,7 @@ Bu dosya tüm yapay zekâlar ve geliştiriciler içindir. Önce README.md, docs/
 - Mevcut kelime kimliğini değiştirme; ilerleme bu kimlikle saklanır. Aynı sözcüğün farklı anlamlarını ayrı kayıtla yönet.
 - Kullanıcının ham kelimelerini data/inbox/ altında koru; doğrulanmamış IPA/seviye/açıklamayı kesin bilgi gibi sunma.
 - Kullanıcı verisini silme; içe aktarmada çakışma politikasını koru veya açıkça belgele.
+- 2026-11-04 kişisel kayıt kararı: IndexedDB ana kayıttır; eski localStorage ilerlemesi doğrulanarak taşınır. Ortak `version:1` yedek biçimini koru. Açık kullanıcı tıklaması ve ikinci onayla çalışan “Verilerimi sil” özelliği yetkilidir; otomatik veri temizliği yapma. Sadece bu uygulamanın kayıt/ayar/tema anahtarlarını sil, `localStorage.clear()` kullanma. Kişisel kayıt sınırı **10 MB**. Ayrıntılar docs/decisions/003-personal-browser-records.md.
 - İş sonunda anlamlı doğrulama çalıştır; STATUS.md ve CHANGELOG.md dosyalarını güncelle. Yapılmayan kontrolü yapılmış sayma.
 - GitHub deposu belirlenmeden remote ekleme/yayın yapma. Gelecek iş önerisini tamamlandı olarak kaydetme.
 

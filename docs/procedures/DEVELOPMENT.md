@@ -17,3 +17,9 @@
 
 ## Doğrudan HTML açılışı — 2026-10-28
 index.html çift tıklamayla açılmalıdır; çalıştırma için CMD/sunucu zorunlu değildir. JSON veya JS değişikliğinden sonra py -3 tools/build_local.py çalıştır. data/generated/sets.js ve site/js/app.bundle.js üretilen dosyalardır; elle düzenleme, kaynaklarla birlikte commit et. Yerel testte file:// açılışını da kontrol et.
+
+## Kişisel kayıt kontrolleri
+- storage.js IndexedDB işlemlerini ve 10 MB sınırını yönetir. Derleyici core/storage/app kaynaklarını birleştirir; başlangıç window.KA_READY ile beklenebilir.
+- Veri değişiklikleri son kayıt üzerinde transaction ile yapılır. JSON doğrulamasını ve eski wrong=attempts-correct uyumluluğunu koru.
+- Fake-indexeddb ve Linkedom yalnız devDependency. tools/personal-data.test.mjs silme/iptal, kota, taşıma, sekme eşzamanlılığı ve zorlanılan kelime testlerini kapsar.
+- Gerçek kullanıcı tarayıcısında silme testi yapma. Temiz Playwright bağlamında yalnız sentetik kayıt kullan. Silme sadece bu uygulamanın verisini hedeflemeli.

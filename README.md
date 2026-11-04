@@ -21,7 +21,7 @@ Python yalnız geliştirme sırasında gerekir; siteyi kullanmak için gerekmez.
 Kartlar, çoktan seçmeli öğrenme, yazarak cevaplama, dinlediğini yazma, yalnız çoktan seçmeli test, altı çift eşleştirme, zamanlı tekrar, favoriler, arama, açık/koyu tema, JSON ilerleme aktarımı.
 Öğrenilen sayacı: art arda en az üç doğru. Tekrar aralıkları: 1, 3, 7, 14, 30, 60 gün; yanlışta 10 dakika. Bu basit bir tekrar algoritmasıdır.
 Telaffuz: cihazın speechSynthesis sesleri. İngiliz/Amerikan ve yavaş seçenekleri; ses bulunabilirliği cihaza bağlıdır. IPA ve Türkçe yaklaşık okunuş gerçek sesin yerine geçmez.
-Çalışma kayıtları localStorage ile tarayıcıda saklanır. Otomatik cihaz eşitlemesi yoktur; ilerleme dosyasını dışa/içe aktar. Aynı kimlikli kayıtta içe aktarılan sürüm önceliklidir.
+Çalışma kayıtları IndexedDB ile tarayıcıda saklanır; eski localStorage kaydı otomatik taşınır. Otomatik cihaz eşitlemesi yoktur; ilerleme dosyasını dışa/içe aktar. Aynı kimlikli kayıtta içe aktarılan sürüm önceliklidir.
 Örnek set kullanıcıdan gelmemiştir; yalnızca deneme içindir. Örnek IPA/seviye alanları bağımsız sözlük kontrolünden geçirilmemiştir.
 
 ## Düzen
@@ -53,3 +53,8 @@ Diğer yapay zekâlar önce AGENTS.md dosyasını okumalıdır.
 Kısayollar: Boşluk kartı çevirir; sol/sağ ok kart değiştirir; F favoriyi değiştirir; 1/2, kart çevrildikten sonra tekrar/biliyorum seçer. Escape odak modundan çıkar; / aramayı açar. Yazı alanlarında kart kısayolları işlemez.
 
 Tasarım ve doğrulama rehberi: docs/decisions/002-modern-study-interface.md. Yazı tipi Inter yerel dosyadan yüklenir; lisansı site/fonts/LICENSE-Inter.txt içindedir.
+
+## Kişisel tarayıcı kaydı
+Favoriler, kelime başına doğru/yanlış ve art arda yanlış sayaçları yalnız tarayıcıda saklanır; GitHub'a gönderilmez. Zorlandıklarım bölümünden yanlışlarına göre çoktan seçmeli test açabilirsin. Aynı profil ortak kaydı paylaşır; başka cihazlar ayrı kalır.
+
+Verilerim ekranında toplamlar, kayıt boyutu ve dışa/içe aktarım bulunur. Üst sınır 10 MB; 116 kelime için dolu sentetik örnek yaklaşık 37,4 KB. Verilerimi sil butonu ikinci onaydan sonra bu uygulamanın favori/sayaç/ayarlarını sıfırlar; çalışma setlerine ve diğer site verilerine dokunmaz. Gizli gezinme veya tarayıcı temizliği kayıtları silebilir. Teknik sözleşme docs/decisions/003-personal-browser-records.md.

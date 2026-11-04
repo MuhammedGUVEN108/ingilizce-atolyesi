@@ -1,7 +1,7 @@
 import fs from 'node:fs';
 import vm from 'node:vm';
 import {parseHTML} from 'linkedom';
-export function openApp(saved={}) {
+export async function openApp(saved={},options={}) {
   const root = new URL('../../',import.meta.url);
   const html = fs.readFileSync(new URL('index.html',root),'utf8');
   const {window,document} = parseHTML(html);
@@ -18,7 +18,9 @@ export function openApp(saved={}) {
   });
   window.SpeechSynthesisUtterance = class {constructor(text){this.text = text;}};
   window.speechSynthesis = {cancel(){},getVoices:() => [],speak:u => voices.push(u)};
-  const localStorage = {getItem:key => storage.get(key) ?? null,setItem:(key,value) => storage.set(key,String(value))};
+  window.indexedDB=options.indexedDB;
+  window.BroadcastChannel=undefined;
+  const localStorage = {getItem:key => storage.get(key) ?? null,setItem:(key,value) => storage.set(key,String(value)),removeItem:key=>storage.delete(key)};
   const context = vm.createContext({
     window,document,localStorage,console,Blob,URL:{createObjectURL:blob => {downloads.push(blob); return 'blob:test';},revokeObjectURL(){}},
     performance:{now:() => clock},setTimeout:() => ++timer,clearTimeout(){},
@@ -29,9 +31,17 @@ export function openApp(saved={}) {
     if (/\bfetch\s*\(/.test(code)) throw Error('Direct-open runtime must not use fetch');
     vm.runInContext(code,context,{filename:tag[1]});
   }
+  await window.KA_READY;
+  const settle=async()=>{
+    await Promise.resolve();
+    for(let i=0;i<1000 && document.querySelector('#main').getAttribute('aria-busy')==='true';i++)await new Promise(setImmediate);
+    await new Promise(setImmediate);
+    if(document.querySelector('#main').getAttribute('aria-busy')==='true')throw Error('Storage operation did not settle');
+  };
   return {document,window,storage,voices,downloads,timers,sets:window.KA_SETS,
+    settle,
     $:s=>document.querySelector(s), $$:s=>[...document.querySelectorAll(s)],
-    click:s => {const el = document.querySelector(s); if(!el)throw Error('Missing control: '+s); el.click();},
+    click:async s => {const el = document.querySelector(s); if(!el)throw Error('Missing control: '+s); el.click();await settle();},
     key:(key,target=document.body) => {const e = new window.Event('keydown',{bubbles:true,cancelable:true});e.key=key;target.dispatchEvent(e);return e;},
     advance:ms => {clock += ms; for (const fn of timers.values()) fn();},
     persisted:()=>Object.fromEntries(storage),
