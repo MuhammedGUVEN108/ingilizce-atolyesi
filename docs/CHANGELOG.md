@@ -1,6 +1,7 @@
 # Değişiklikler
 
 ## 2026-11-04
+- Kullanıcı düzeltmesi: Test modu ve yanlışları tekrar turu yalnız çoktan seçmeli; yazılı soru karışımı kaldırıldı. Açıklama ve ortak AI talimatları güncellendi; 17 test geçti.
 - Quizlet tarzına yakın modern indigo/beyaz arayüz; yerel Inter fontu ve SVG ikonları; eski fildişi/sarı tasarımı kaldırıldı.
 - Kütüphane, genel arama, favori/tekrar koleksiyonları, odak modu, kart yönü ve klavye kontrolleri.
 - Yedi mod yeni düzene taşındı. Test soru sayısı, öğrenmede yazılı soru, geri bildirim/sonuç ekranları ve eşleştirme zamanlayıcısı düzenlendi.

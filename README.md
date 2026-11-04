@@ -18,7 +18,7 @@ Bu işlem data/generated/sets.js ve site/js/app.bundle.js dosyalarını üretir.
 Python yalnız geliştirme sırasında gerekir; siteyi kullanmak için gerekmez.
 
 ## Özellikler
-Kartlar, çoktan seçmeli öğrenme, yazarak cevaplama, dinlediğini yazma, karma test, altı çift eşleştirme, zamanlı tekrar, favoriler, arama, açık/koyu tema, JSON ilerleme aktarımı.
+Kartlar, çoktan seçmeli öğrenme, yazarak cevaplama, dinlediğini yazma, yalnız çoktan seçmeli test, altı çift eşleştirme, zamanlı tekrar, favoriler, arama, açık/koyu tema, JSON ilerleme aktarımı.
 Öğrenilen sayacı: art arda en az üç doğru. Tekrar aralıkları: 1, 3, 7, 14, 30, 60 gün; yanlışta 10 dakika. Bu basit bir tekrar algoritmasıdır.
 Telaffuz: cihazın speechSynthesis sesleri. İngiliz/Amerikan ve yavaş seçenekleri; ses bulunabilirliği cihaza bağlıdır. IPA ve Türkçe yaklaşık okunuş gerçek sesin yerine geçmez.
 Çalışma kayıtları localStorage ile tarayıcıda saklanır. Otomatik cihaz eşitlemesi yoktur; ilerleme dosyasını dışa/içe aktar. Aynı kimlikli kayıtta içe aktarılan sürüm önceliklidir.

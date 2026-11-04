@@ -260,7 +260,7 @@ function gradeCard(correct) {
 }
 function renderTestSetup() {
   const counts = [...new Set([Math.min(10,deck.length),Math.min(20,deck.length),deck.length])];
-  $('#workspace').innerHTML = '<div class="test-setup"><span class="mode-emblem">'+icon('test')+'</span><h2>Kendini denemeye hazır mısın?</h2><p>Çoktan seçmeli ve yazılı sorularla bu sette öğrendiklerini gözden geçir.</p><label>Soru sayısı <select id="test-count">'+counts.map(n => '<option value="'+n+'">'+n+' soru'+(n === deck.length ? ' · tümü' : '')+'</option>').join('')+'</select></label><button class="button button-primary" data-action="begin-test">Teste başla '+icon('arrow')+'</button></div>';
+  $('#workspace').innerHTML = '<div class="test-setup"><span class="mode-emblem">'+icon('test')+'</span><h2>Kendini denemeye hazır mısın?</h2><p>Çoktan seçmeli sorularla bu sette öğrendiklerini gözden geçir.</p><label>Soru sayısı <select id="test-count">'+counts.map(n => '<option value="'+n+'">'+n+' soru'+(n === deck.length ? ' · tümü' : '')+'</option>').join('')+'</select></label><button class="button button-primary" data-action="begin-test">Teste başla '+icon('arrow')+'</button></div>';
 }
 function beginQuiz(items) {
   const count = mode === 'test' ? Number($('#test-count')?.value || 10) : deck.length;
@@ -271,7 +271,7 @@ function renderQuestion() {
   if (session.pos >= session.items.length) { renderResult(); return; }
   const w = session.items[session.pos];
   session.answered = false;
-  session.type = mode === 'listen' ? 'listen' : mode === 'write' || mode === 'review' ? 'write' : mode === 'test' ? (session.pos % 2 ? 'write' : 'choice') : state(w).streak >= 2 ? 'write' : 'choice';
+  session.type = mode === 'listen' ? 'listen' : mode === 'write' || mode === 'review' ? 'write' : mode === 'test' ? 'choice' : state(w).streak >= 2 ? 'write' : 'choice';
   const choices = session.type === 'choice' ? shuffle([w,...shuffle(current.words.filter(x => x.id !== w.id && x.term !== w.term)).slice(0,3)]) : [];
   session.choices = choices;
   $('#workspace').innerHTML = '<div class="question-card"><div class="question-meta"><span>'+ (session.pos+1)+' / '+session.items.length+' soru</span><strong>'+session.correct+' doğru</strong></div><p class="question-label">'+(session.type === 'listen' ? 'DİNLE VE İNGİLİZCESİNİ YAZ' : 'İNGİLİZCE KARŞILIĞINI '+(session.type === 'choice' ? 'SEÇ' : 'YAZ'))+'</p><div class="question">'+(session.type === 'listen' ? '<button class="listen-button" data-speak="'+esc(w.id)+'">'+icon('sound')+' Kelimeyi dinle</button>' : esc(w.meaning))+'</div>'+

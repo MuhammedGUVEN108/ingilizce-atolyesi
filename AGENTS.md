@@ -5,6 +5,7 @@ Bu dosya tüm yapay zekâlar ve geliştiriciler içindir. Önce README.md, docs/
 - Arayüz çalışma anında bağımlılıksızdır. Linkedom yalnız devDependency; testlerden önce npm ci --ignore-scripts çalıştır. Klasörleri veya localStorage kelime-atolyesi-progress-v1 anahtarını taşımadan önce veri uyumluluğunu koru.
 - Bu klasör proje merkezidir. Kök dizine geçici dosya, sohbet dökümü veya yedek yığma.
 - Onaylı kapsam: kartlar, öğrenme, yazma, dinleme, test, eşleştirme, tekrar, kelime verisi, ilerleme aktarımı.
+- 2026-11-04 kullanıcı düzeltmesi: **Test modu yalnız çoktan seçmeli olmalı.** Ana testte veya yanlışları yeniden çalışırken metin yazma sorusu ekleme. Yaz/Dinle/Öğren/Tekrar modlarının mevcut soru türleri bu karardan bağımsızdır.
 - Yayın hedefi GitHub Pages. Sites hosting oluşturma. Anahtar veya gizli bilgi istemci koduna yazma.
 - Veri kaynağı data/sets/*.json; site koduna kelime gömme.
 - Sohbet verisi temizliği: docs/procedures/IMPORTING_CHAT_LOGS.md. İlk örnek veri kümesinin analizi docs/analysis/oliver-twist.md içindedir. data/analysis/ altındaki kaynak izlerini ve belirsizlikleri koru; importer set dosyalarını yeniden yazabileceğinden elle değişiklikleri kontrol etmeden çalıştırma.

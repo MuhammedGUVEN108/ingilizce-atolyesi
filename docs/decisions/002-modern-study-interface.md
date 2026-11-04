@@ -17,7 +17,7 @@
 - Yeni ayarlar ka-preferences-v2 anahtarında saklanır; eski tema anahtarı ka-theme korunur. Ses aksanı/yavaş okuma kart değişiminde sıfırlanmaz.
 - Kart ilerlemesi set bazında hatırlanır. Filtrelenmiş alt listelerin konumu ana set konumu olarak yazılmaz.
 - Aynı kart aynı turda iki kez puanlanmaz. Eşleştirme zamanlayıcısı ilk seçimde başlar; tamamlanınca veya görünüm değişince durur.
-- Yedi mod korunur. Test modunda soru sayısı seçilebilir; Öğren modunda art arda iki doğruya ulaşmış terimler yazılı soruyla sorulabilir.
+- Yedi mod korunur. Test modunda soru sayısı seçilebilir ve 2026-11-04 kullanıcı düzeltmesi gereği tüm sorular çoktan seçmelidir; yanlışları tekrar et akışında da yazılı soru gelmez. Öğren modunda art arda iki doğruya ulaşmış terimler yazılı soruyla sorulabilir.
 - Linkedom yalnız geliştirme testlerinde kullanılan devDependency'dir. Kullanıcı arayüzü için npm/Node/Python gerekmez. Python üreticisi klasik JS dosyalarını hazırlar; index.html çift tıklamayla açılır.
 - GitHub Pages ve yerel dosya açılışı aynı kaynakları kullanır. Sites hosting veya yeni veri servisi eklenmedi.
 

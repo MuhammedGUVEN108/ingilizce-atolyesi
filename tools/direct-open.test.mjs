@@ -73,10 +73,38 @@ test('write and listening modes reject wrong answers, play actual terms, and tes
   assert.ok(app.$('#feedback').classList.contains('good'));
   app.click('[data-mode="test"]'); app.click('[data-action="begin-test"]');
   for (let i=0;i<10;i++) {
+    assert.equal(app.$$('.answer-option').length,4);
+    assert.equal(app.$('#answer-form'),null);
     app.click('#skip-question'); app.click('#continue');
   }
   assert.match(app.$('.result').textContent,/0.*10/);
   assert.ok(app.$('[data-action="retry-wrong"]'));
+  app.click('[data-action="retry-wrong"]');
+  for (let i=0;i<10;i++) {
+    assert.equal(app.$$('.answer-option').length,4);
+    assert.equal(app.$('#answer-form'),null);
+    app.click('#skip-question'); app.click('#continue');
+  }
+});
+
+test('test mode stays multiple choice for all selected questions even for mastered words', () => {
+  const fixture = openApp();
+  const words = fixture.sets[0].words;
+  const progress = {version:1,words:Object.fromEntries(words.map(w=>[w.id,{streak:3,attempts:3,correct:3,due:0}]))};
+  const app = openApp({'kelime-atolyesi-progress-v1':JSON.stringify(progress)});
+  app.click('[data-mode="test"]');
+  app.$('#test-count').value = '20';
+  app.click('[data-action="begin-test"]');
+  for (let i=0;i<20;i++) {
+    assert.equal(app.$('#answer'),null);
+    assert.equal(app.$$('.answer-option').length,4);
+    const word = words.find(w=>w.meaning===app.$('.question').textContent);
+    const option = app.$$('.answer-option').find(b=>b.querySelector('span:last-child').textContent===word.term);
+    option.click();
+    assert.ok(app.$('#feedback').classList.contains('good'));
+    app.click('#continue');
+  }
+  assert.match(app.$('.result').textContent,/20.*20/);
 });
 
 test('matching adds penalties and stops its timer on completion or when leaving the mode', () => {
